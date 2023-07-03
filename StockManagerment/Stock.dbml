@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Stock_Management" Class="StockDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NV19\SQLEXPRESS;Initial Catalog=Stock_Management;Integrated Security=True" SettingsObjectName="StockManagerment.Properties.Settings" SettingsPropertyName="Stock_ManagementConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.productInStock" Member="productInStocks">
+    <Type Name="productInStock">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="industry_group" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="industry" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="[group]" Member="group" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="type_product" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sku" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name_Product" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Name_Branch" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Shelf" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Stock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbShopeeInfo" Member="tbShopeeInfos">
+    <Type Name="tbShopeeInfo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="productCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="productName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="classificationCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="classificationName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="SKUProduct" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
