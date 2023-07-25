@@ -25,3 +25,30 @@ D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\Exce
 D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.xml
 D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.DataSet.pdb
 D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.DataSet.xml
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe.config
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\StockManagerment.pdb
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.dll
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.dll
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.dll
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.dll
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.dll
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.xml
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.pdb
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.xml
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.xml
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.xml
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.xml
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.AssemblyReference.cache
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.SuggestedBindingRedirects.cache
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.ExportShopeeAndHaravan.resources
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.Main.resources
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.Properties.Resources.resources
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.SearchForm.resources
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.StockManagerment.resources
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.GenerateResource.cache
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CoreCompileInputs.cache
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CopyComplete
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.exe
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.pdb

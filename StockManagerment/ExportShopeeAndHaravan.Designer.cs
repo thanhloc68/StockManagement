@@ -40,7 +40,9 @@
             this.txtContent = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.txtNumpage = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.txtSize = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
             this.txtTrans = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.txtWeight = new System.Windows.Forms.TextBox();
@@ -55,6 +57,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.txtTag = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
+            this.txtLoaiSp = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.cbbDanhMuc = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -62,9 +65,13 @@
             this.label17 = new System.Windows.Forms.Label();
             this.txtLanguage = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.txtXuatKhau = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
+            this.txtSlHrv = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.txtSlShopee = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.txtPrice = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtIdBrand = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -190,20 +197,61 @@
             this.coldiachitochuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtNameProduct = new System.Windows.Forms.TextBox();
             this.btnAddProduct = new System.Windows.Forms.Button();
-            this.txtPrice = new System.Windows.Forms.TextBox();
-            this.txtSlShopee = new System.Windows.Forms.TextBox();
-            this.txtSlHrv = new System.Windows.Forms.TextBox();
-            this.txtXuatKhau = new System.Windows.Forms.TextBox();
-            this.txtLoaiSp = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.dgvTikTok = new System.Windows.Forms.DataGridView();
+            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colBrandtiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProductNametiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDescreptionTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colWeightTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colLeght = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColWeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDelivery = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProperty_value_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProperty_1_image = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProperty_value_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPriceTikTok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colQuantityTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSeller_sku = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colMain_image = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_image_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSize_chart = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNXBTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colISBNISN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTrans = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colBTV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSoTrangtiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnExportTiktok = new System.Windows.Forms.Button();
+            this.label31 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txtSlTikTok = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.txtISBN = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListHrv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListShopee)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTikTok)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label33);
+            this.panel1.Controls.Add(this.txtISBN);
+            this.panel1.Controls.Add(this.label32);
+            this.panel1.Controls.Add(this.txtSlTikTok);
+            this.panel1.Controls.Add(this.label31);
+            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.btnExportTiktok);
+            this.panel1.Controls.Add(this.dgvTikTok);
             this.panel1.Controls.Add(this.btnBack);
             this.panel1.Controls.Add(this.lbCount);
             this.panel1.Controls.Add(this.btnGetId);
@@ -295,14 +343,14 @@
             // 
             this.lbCount.AutoSize = true;
             this.lbCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCount.Location = new System.Drawing.Point(389, 73);
+            this.lbCount.Location = new System.Drawing.Point(389, 97);
             this.lbCount.Name = "lbCount";
             this.lbCount.Size = new System.Drawing.Size(0, 16);
             this.lbCount.TabIndex = 70;
             // 
             // btnGetId
             // 
-            this.btnGetId.Location = new System.Drawing.Point(187, 405);
+            this.btnGetId.Location = new System.Drawing.Point(187, 429);
             this.btnGetId.Name = "btnGetId";
             this.btnGetId.Size = new System.Drawing.Size(110, 23);
             this.btnGetId.TabIndex = 13;
@@ -312,7 +360,7 @@
             // 
             // btnExportAll
             // 
-            this.btnExportAll.Location = new System.Drawing.Point(1609, 37);
+            this.btnExportAll.Location = new System.Drawing.Point(1551, 39);
             this.btnExportAll.Name = "btnExportAll";
             this.btnExportAll.Size = new System.Drawing.Size(96, 23);
             this.btnExportAll.TabIndex = 69;
@@ -322,7 +370,7 @@
             // 
             // btnExportShopee
             // 
-            this.btnExportShopee.Location = new System.Drawing.Point(1664, 8);
+            this.btnExportShopee.Location = new System.Drawing.Point(1539, 8);
             this.btnExportShopee.Name = "btnExportShopee";
             this.btnExportShopee.Size = new System.Drawing.Size(108, 23);
             this.btnExportShopee.TabIndex = 68;
@@ -332,7 +380,7 @@
             // 
             // btnExportHaravan
             // 
-            this.btnExportHaravan.Location = new System.Drawing.Point(1559, 8);
+            this.btnExportHaravan.Location = new System.Drawing.Point(1434, 8);
             this.btnExportHaravan.Name = "btnExportHaravan";
             this.btnExportHaravan.Size = new System.Drawing.Size(99, 23);
             this.btnExportHaravan.TabIndex = 67;
@@ -342,7 +390,7 @@
             // 
             // btnClearRow
             // 
-            this.btnClearRow.Location = new System.Drawing.Point(1697, 466);
+            this.btnClearRow.Location = new System.Drawing.Point(1407, 466);
             this.btnClearRow.Name = "btnClearRow";
             this.btnClearRow.Size = new System.Drawing.Size(75, 23);
             this.btnClearRow.TabIndex = 66;
@@ -373,7 +421,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(806, 166);
+            this.label25.Location = new System.Drawing.Point(1086, 40);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(63, 16);
             this.label25.TabIndex = 62;
@@ -381,25 +429,45 @@
             // 
             // txtNumpage
             // 
-            this.txtNumpage.Location = new System.Drawing.Point(875, 164);
+            this.txtNumpage.Location = new System.Drawing.Point(1155, 38);
             this.txtNumpage.Multiline = true;
             this.txtNumpage.Name = "txtNumpage";
             this.txtNumpage.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtNumpage.Size = new System.Drawing.Size(194, 25);
             this.txtNumpage.TabIndex = 31;
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(796, 166);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(73, 16);
+            this.label26.TabIndex = 60;
+            this.label26.Text = "Kích Thước";
+            // 
             // txtSize
             // 
-            this.txtSize.Location = new System.Drawing.Point(875, 133);
+            this.txtSize.Location = new System.Drawing.Point(875, 163);
             this.txtSize.Multiline = true;
             this.txtSize.Name = "txtSize";
             this.txtSize.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtSize.Size = new System.Drawing.Size(194, 25);
             this.txtSize.TabIndex = 30;
             // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(796, 135);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(73, 16);
+            this.label27.TabIndex = 58;
+            this.label27.Text = "Người Dịch";
+            // 
             // txtTrans
             // 
-            this.txtTrans.Location = new System.Drawing.Point(875, 102);
+            this.txtTrans.Location = new System.Drawing.Point(875, 132);
             this.txtTrans.Multiline = true;
             this.txtTrans.Name = "txtTrans";
             this.txtTrans.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -410,7 +478,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(802, 73);
+            this.label28.Location = new System.Drawing.Point(802, 103);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(67, 16);
             this.label28.TabIndex = 56;
@@ -418,7 +486,7 @@
             // 
             // txtWeight
             // 
-            this.txtWeight.Location = new System.Drawing.Point(875, 71);
+            this.txtWeight.Location = new System.Drawing.Point(875, 101);
             this.txtWeight.Multiline = true;
             this.txtWeight.Name = "txtWeight";
             this.txtWeight.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -429,7 +497,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(835, 42);
+            this.label29.Location = new System.Drawing.Point(835, 72);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(34, 16);
             this.label29.TabIndex = 54;
@@ -437,7 +505,7 @@
             // 
             // txtSKU
             // 
-            this.txtSKU.Location = new System.Drawing.Point(875, 38);
+            this.txtSKU.Location = new System.Drawing.Point(875, 68);
             this.txtSKU.Multiline = true;
             this.txtSKU.Name = "txtSKU";
             this.txtSKU.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -448,7 +516,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(457, 353);
+            this.label24.Location = new System.Drawing.Point(457, 377);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(56, 16);
             this.label24.TabIndex = 52;
@@ -461,7 +529,7 @@
             "Bìa mềm",
             "Bìa cứng",
             "Bộ Hộp"});
-            this.cbbLoaiBia.Location = new System.Drawing.Point(519, 350);
+            this.cbbLoaiBia.Location = new System.Drawing.Point(519, 374);
             this.cbbLoaiBia.Name = "cbbLoaiBia";
             this.cbbLoaiBia.Size = new System.Drawing.Size(263, 21);
             this.cbbLoaiBia.TabIndex = 25;
@@ -470,7 +538,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(424, 382);
+            this.label22.Location = new System.Drawing.Point(424, 406);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(92, 16);
             this.label22.TabIndex = 50;
@@ -478,7 +546,7 @@
             // 
             // txtNamsx
             // 
-            this.txtNamsx.Location = new System.Drawing.Point(519, 378);
+            this.txtNamsx.Location = new System.Drawing.Point(519, 402);
             this.txtNamsx.Multiline = true;
             this.txtNamsx.Name = "txtNamsx";
             this.txtNamsx.Size = new System.Drawing.Size(264, 25);
@@ -488,7 +556,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(418, 319);
+            this.label23.Location = new System.Drawing.Point(418, 343);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(97, 16);
             this.label23.TabIndex = 48;
@@ -496,7 +564,7 @@
             // 
             // txtNPH
             // 
-            this.txtNPH.Location = new System.Drawing.Point(518, 316);
+            this.txtNPH.Location = new System.Drawing.Point(518, 340);
             this.txtNPH.Multiline = true;
             this.txtNPH.Name = "txtNPH";
             this.txtNPH.Size = new System.Drawing.Size(264, 25);
@@ -506,7 +574,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(482, 288);
+            this.label21.Location = new System.Drawing.Point(482, 312);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(32, 16);
             this.label21.TabIndex = 46;
@@ -514,7 +582,7 @@
             // 
             // txtTag
             // 
-            this.txtTag.Location = new System.Drawing.Point(518, 284);
+            this.txtTag.Location = new System.Drawing.Point(518, 308);
             this.txtTag.Multiline = true;
             this.txtTag.Name = "txtTag";
             this.txtTag.Size = new System.Drawing.Size(264, 25);
@@ -524,17 +592,25 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(463, 257);
+            this.label20.Location = new System.Drawing.Point(463, 281);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(53, 16);
             this.label20.TabIndex = 44;
             this.label20.Text = "Loại Sp";
             // 
+            // txtLoaiSp
+            // 
+            this.txtLoaiSp.Location = new System.Drawing.Point(519, 277);
+            this.txtLoaiSp.Multiline = true;
+            this.txtLoaiSp.Name = "txtLoaiSp";
+            this.txtLoaiSp.Size = new System.Drawing.Size(263, 25);
+            this.txtLoaiSp.TabIndex = 22;
+            // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(394, 226);
+            this.label19.Location = new System.Drawing.Point(394, 250);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(122, 16);
             this.label19.TabIndex = 42;
@@ -551,7 +627,7 @@
             "TRUYỆN NGẮN - TẢN VĂN",
             "TÂM LÍ- KỸ NĂNG SỐNG",
             "DANH MỤC DHA"});
-            this.cbbDanhMuc.Location = new System.Drawing.Point(520, 225);
+            this.cbbDanhMuc.Location = new System.Drawing.Point(520, 249);
             this.cbbDanhMuc.Name = "cbbDanhMuc";
             this.cbbDanhMuc.Size = new System.Drawing.Size(263, 21);
             this.cbbDanhMuc.TabIndex = 21;
@@ -560,7 +636,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(419, 196);
+            this.label18.Location = new System.Drawing.Point(419, 220);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(94, 16);
             this.label18.TabIndex = 40;
@@ -587,7 +663,7 @@
             "Huy Hoang Bookstore",
             "CÔNG TY TNHH THƯƠNG MẠI KONBINI VIỆT NAM",
             "CÔNG TY TNHH VĂN HÓA VÀ TRUYỀN THÔNG 1980 BOOKS"});
-            this.cbbNCC.Location = new System.Drawing.Point(519, 195);
+            this.cbbNCC.Location = new System.Drawing.Point(519, 219);
             this.cbbNCC.Name = "cbbNCC";
             this.cbbNCC.Size = new System.Drawing.Size(263, 21);
             this.cbbNCC.TabIndex = 20;
@@ -596,7 +672,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(447, 165);
+            this.label17.Location = new System.Drawing.Point(447, 189);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(68, 16);
             this.label17.TabIndex = 38;
@@ -604,7 +680,7 @@
             // 
             // txtLanguage
             // 
-            this.txtLanguage.Location = new System.Drawing.Point(519, 161);
+            this.txtLanguage.Location = new System.Drawing.Point(519, 185);
             this.txtLanguage.Multiline = true;
             this.txtLanguage.Name = "txtLanguage";
             this.txtLanguage.Size = new System.Drawing.Size(264, 25);
@@ -614,47 +690,79 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(447, 132);
+            this.label16.Location = new System.Drawing.Point(447, 156);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(66, 16);
             this.label16.TabIndex = 36;
             this.label16.Text = "Xuất Khẩu";
             // 
+            // txtXuatKhau
+            // 
+            this.txtXuatKhau.Location = new System.Drawing.Point(519, 152);
+            this.txtXuatKhau.Multiline = true;
+            this.txtXuatKhau.Name = "txtXuatKhau";
+            this.txtXuatKhau.Size = new System.Drawing.Size(263, 25);
+            this.txtXuatKhau.TabIndex = 18;
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(632, 100);
+            this.label15.Location = new System.Drawing.Point(555, 125);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(55, 16);
             this.label15.TabIndex = 34;
             this.label15.Text = "Tồn Hrv";
             // 
+            // txtSlHrv
+            // 
+            this.txtSlHrv.Location = new System.Drawing.Point(614, 121);
+            this.txtSlHrv.Multiline = true;
+            this.txtSlHrv.Name = "txtSlHrv";
+            this.txtSlHrv.Size = new System.Drawing.Size(60, 25);
+            this.txtSlHrv.TabIndex = 17;
+            // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(432, 100);
+            this.label14.Location = new System.Drawing.Point(397, 125);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(82, 16);
             this.label14.TabIndex = 32;
             this.label14.Text = "Tồn Shopee";
             // 
+            // txtSlShopee
+            // 
+            this.txtSlShopee.Location = new System.Drawing.Point(485, 122);
+            this.txtSlShopee.Multiline = true;
+            this.txtSlShopee.Name = "txtSlShopee";
+            this.txtSlShopee.Size = new System.Drawing.Size(50, 25);
+            this.txtSlShopee.TabIndex = 16;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(487, 70);
+            this.label13.Location = new System.Drawing.Point(487, 94);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(28, 16);
             this.label13.TabIndex = 30;
             this.label13.Text = "Giá";
             // 
+            // txtPrice
+            // 
+            this.txtPrice.Location = new System.Drawing.Point(520, 91);
+            this.txtPrice.Multiline = true;
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(262, 25);
+            this.txtPrice.TabIndex = 15;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(41, 438);
+            this.label12.Location = new System.Drawing.Point(41, 462);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(65, 16);
             this.label12.TabIndex = 28;
@@ -662,7 +770,7 @@
             // 
             // txtIdBrand
             // 
-            this.txtIdBrand.Location = new System.Drawing.Point(111, 436);
+            this.txtIdBrand.Location = new System.Drawing.Point(111, 460);
             this.txtIdBrand.Multiline = true;
             this.txtIdBrand.Name = "txtIdBrand";
             this.txtIdBrand.Size = new System.Drawing.Size(272, 25);
@@ -672,7 +780,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(22, 379);
+            this.label11.Location = new System.Drawing.Point(22, 403);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 16);
             this.label11.TabIndex = 26;
@@ -681,7 +789,7 @@
             // cbbBrand
             // 
             this.cbbBrand.FormattingEnabled = true;
-            this.cbbBrand.Location = new System.Drawing.Point(111, 378);
+            this.cbbBrand.Location = new System.Drawing.Point(111, 402);
             this.cbbBrand.Name = "cbbBrand";
             this.cbbBrand.Size = new System.Drawing.Size(272, 21);
             this.cbbBrand.TabIndex = 12;
@@ -690,7 +798,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(61, 350);
+            this.label10.Location = new System.Drawing.Point(61, 374);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(44, 16);
             this.label10.TabIndex = 24;
@@ -698,7 +806,7 @@
             // 
             // txtImg8
             // 
-            this.txtImg8.Location = new System.Drawing.Point(111, 347);
+            this.txtImg8.Location = new System.Drawing.Point(111, 371);
             this.txtImg8.Multiline = true;
             this.txtImg8.Name = "txtImg8";
             this.txtImg8.Size = new System.Drawing.Size(272, 25);
@@ -708,7 +816,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(61, 319);
+            this.label9.Location = new System.Drawing.Point(61, 343);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(44, 16);
             this.label9.TabIndex = 22;
@@ -716,7 +824,7 @@
             // 
             // txtImg7
             // 
-            this.txtImg7.Location = new System.Drawing.Point(111, 316);
+            this.txtImg7.Location = new System.Drawing.Point(111, 340);
             this.txtImg7.Multiline = true;
             this.txtImg7.Name = "txtImg7";
             this.txtImg7.Size = new System.Drawing.Size(272, 25);
@@ -726,7 +834,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(61, 288);
+            this.label8.Location = new System.Drawing.Point(61, 312);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 16);
             this.label8.TabIndex = 20;
@@ -734,7 +842,7 @@
             // 
             // txtImg6
             // 
-            this.txtImg6.Location = new System.Drawing.Point(111, 285);
+            this.txtImg6.Location = new System.Drawing.Point(111, 309);
             this.txtImg6.Multiline = true;
             this.txtImg6.Name = "txtImg6";
             this.txtImg6.Size = new System.Drawing.Size(272, 25);
@@ -744,7 +852,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(61, 257);
+            this.label7.Location = new System.Drawing.Point(61, 281);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 16);
             this.label7.TabIndex = 18;
@@ -752,7 +860,7 @@
             // 
             // txtImg5
             // 
-            this.txtImg5.Location = new System.Drawing.Point(111, 254);
+            this.txtImg5.Location = new System.Drawing.Point(111, 278);
             this.txtImg5.Multiline = true;
             this.txtImg5.Name = "txtImg5";
             this.txtImg5.Size = new System.Drawing.Size(272, 25);
@@ -762,7 +870,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(61, 227);
+            this.label6.Location = new System.Drawing.Point(61, 251);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 16);
             this.label6.TabIndex = 16;
@@ -770,7 +878,7 @@
             // 
             // txtImg4
             // 
-            this.txtImg4.Location = new System.Drawing.Point(111, 223);
+            this.txtImg4.Location = new System.Drawing.Point(111, 247);
             this.txtImg4.Multiline = true;
             this.txtImg4.Name = "txtImg4";
             this.txtImg4.Size = new System.Drawing.Size(272, 25);
@@ -780,7 +888,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(61, 196);
+            this.label5.Location = new System.Drawing.Point(61, 220);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 16);
             this.label5.TabIndex = 14;
@@ -788,7 +896,7 @@
             // 
             // txtImg3
             // 
-            this.txtImg3.Location = new System.Drawing.Point(111, 192);
+            this.txtImg3.Location = new System.Drawing.Point(111, 216);
             this.txtImg3.Multiline = true;
             this.txtImg3.Name = "txtImg3";
             this.txtImg3.Size = new System.Drawing.Size(272, 25);
@@ -798,7 +906,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(61, 165);
+            this.label4.Location = new System.Drawing.Point(61, 189);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 16);
             this.label4.TabIndex = 12;
@@ -806,7 +914,7 @@
             // 
             // txtImg2
             // 
-            this.txtImg2.Location = new System.Drawing.Point(111, 161);
+            this.txtImg2.Location = new System.Drawing.Point(111, 185);
             this.txtImg2.Multiline = true;
             this.txtImg2.Name = "txtImg2";
             this.txtImg2.Size = new System.Drawing.Size(272, 25);
@@ -816,7 +924,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(61, 134);
+            this.label3.Location = new System.Drawing.Point(61, 158);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 10;
@@ -824,7 +932,7 @@
             // 
             // txtImg1
             // 
-            this.txtImg1.Location = new System.Drawing.Point(111, 130);
+            this.txtImg1.Location = new System.Drawing.Point(111, 154);
             this.txtImg1.Multiline = true;
             this.txtImg1.Name = "txtImg1";
             this.txtImg1.Size = new System.Drawing.Size(272, 25);
@@ -834,7 +942,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(52, 103);
+            this.label2.Location = new System.Drawing.Point(52, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 16);
             this.label2.TabIndex = 8;
@@ -842,7 +950,7 @@
             // 
             // txtImg
             // 
-            this.txtImg.Location = new System.Drawing.Point(111, 99);
+            this.txtImg.Location = new System.Drawing.Point(111, 123);
             this.txtImg.Multiline = true;
             this.txtImg.Name = "txtImg";
             this.txtImg.Size = new System.Drawing.Size(272, 25);
@@ -852,7 +960,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 73);
+            this.label1.Location = new System.Drawing.Point(10, 97);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 16);
             this.label1.TabIndex = 6;
@@ -862,16 +970,16 @@
             // 
             this.lbNganhHang.AutoSize = true;
             this.lbNganhHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNganhHang.Location = new System.Drawing.Point(22, 40);
+            this.lbNganhHang.Location = new System.Drawing.Point(4, 71);
             this.lbNganhHang.Name = "lbNganhHang";
-            this.lbNganhHang.Size = new System.Drawing.Size(83, 16);
+            this.lbNganhHang.Size = new System.Drawing.Size(104, 16);
             this.lbNganhHang.TabIndex = 5;
-            this.lbNganhHang.Text = "Ngành Hàng";
+            this.lbNganhHang.Text = "Ngành Hàng SP";
             // 
             // cbbIndustry
             // 
             this.cbbIndustry.FormattingEnabled = true;
-            this.cbbIndustry.Location = new System.Drawing.Point(111, 39);
+            this.cbbIndustry.Location = new System.Drawing.Point(110, 68);
             this.cbbIndustry.Name = "cbbIndustry";
             this.cbbIndustry.Size = new System.Drawing.Size(671, 21);
             this.cbbIndustry.TabIndex = 1;
@@ -930,9 +1038,9 @@
             this.colHienThiShoppee,
             this.colKhongapdungkm,
             this.colHienThiHarraRetail});
-            this.dgvListHrv.Location = new System.Drawing.Point(3, 766);
+            this.dgvListHrv.Location = new System.Drawing.Point(485, 495);
             this.dgvListHrv.Name = "dgvListHrv";
-            this.dgvListHrv.Size = new System.Drawing.Size(1769, 256);
+            this.dgvListHrv.Size = new System.Drawing.Size(454, 265);
             this.dgvListHrv.TabIndex = 3;
             // 
             // colUrl
@@ -1235,14 +1343,14 @@
             this.coldiachitochuc});
             this.dgvListShopee.Location = new System.Drawing.Point(3, 495);
             this.dgvListShopee.Name = "dgvListShopee";
-            this.dgvListShopee.Size = new System.Drawing.Size(1769, 265);
+            this.dgvListShopee.Size = new System.Drawing.Size(458, 265);
             this.dgvListShopee.TabIndex = 2;
             // 
             // colNghanhhang
             // 
             this.colNghanhhang.HeaderText = "Nghành Hàng";
             this.colNghanhhang.Name = "colNghanhhang";
-            this.colNghanhhang.Width = 91;
+            this.colNghanhhang.Width = 99;
             // 
             // colTen
             // 
@@ -1254,7 +1362,7 @@
             // 
             this.colMota.HeaderText = "Mô Tả";
             this.colMota.Name = "colMota";
-            this.colMota.Width = 47;
+            this.colMota.Width = 63;
             // 
             // colSKU
             // 
@@ -1266,7 +1374,7 @@
             // 
             this.colMasp.HeaderText = "Mã Sản Phẩm";
             this.colMasp.Name = "colMasp";
-            this.colMasp.Width = 91;
+            this.colMasp.Width = 99;
             // 
             // colPLN1
             // 
@@ -1522,7 +1630,7 @@
             // 
             // txtNameProduct
             // 
-            this.txtNameProduct.Location = new System.Drawing.Point(111, 68);
+            this.txtNameProduct.Location = new System.Drawing.Point(111, 92);
             this.txtNameProduct.Multiline = true;
             this.txtNameProduct.Name = "txtNameProduct";
             this.txtNameProduct.Size = new System.Drawing.Size(272, 25);
@@ -1539,65 +1647,309 @@
             this.btnAddProduct.UseVisualStyleBackColor = true;
             this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
-            // txtPrice
+            // dgvTikTok
             // 
-            this.txtPrice.Location = new System.Drawing.Point(520, 67);
-            this.txtPrice.Multiline = true;
-            this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(262, 25);
-            this.txtPrice.TabIndex = 15;
+            this.dgvTikTok.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvTikTok.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTikTok.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colCategory,
+            this.colBrandtiktok,
+            this.colProductNametiktok,
+            this.colDescreptionTiktok,
+            this.colWeightTiktok,
+            this.colLeght,
+            this.ColWeight,
+            this.colHeight,
+            this.colDelivery,
+            this.colProperty_value_1,
+            this.colProperty_1_image,
+            this.colProperty_value_2,
+            this.colPriceTikTok,
+            this.colQuantityTiktok,
+            this.colSeller_sku,
+            this.colMain_image,
+            this.colImage_2,
+            this.colImage_3,
+            this.colImage_4,
+            this.colImage_5,
+            this.colImage_6,
+            this.colImage_7,
+            this.colImage_8,
+            this.col_image_9,
+            this.colSize_chart,
+            this.colDate,
+            this.colNXBTiktok,
+            this.colISBNISN,
+            this.colTrans,
+            this.colBTV,
+            this.colSoTrangtiktok});
+            this.dgvTikTok.Location = new System.Drawing.Point(988, 495);
+            this.dgvTikTok.Name = "dgvTikTok";
+            this.dgvTikTok.Size = new System.Drawing.Size(494, 265);
+            this.dgvTikTok.TabIndex = 72;
             // 
-            // txtSlShopee
+            // colCategory
             // 
-            this.txtSlShopee.Location = new System.Drawing.Point(520, 97);
-            this.txtSlShopee.Multiline = true;
-            this.txtSlShopee.Name = "txtSlShopee";
-            this.txtSlShopee.Size = new System.Drawing.Size(103, 25);
-            this.txtSlShopee.TabIndex = 16;
+            this.colCategory.HeaderText = "Hạng Mục";
+            this.colCategory.Name = "colCategory";
             // 
-            // txtSlHrv
+            // colBrandtiktok
             // 
-            this.txtSlHrv.Location = new System.Drawing.Point(691, 96);
-            this.txtSlHrv.Multiline = true;
-            this.txtSlHrv.Name = "txtSlHrv";
-            this.txtSlHrv.Size = new System.Drawing.Size(90, 25);
-            this.txtSlHrv.TabIndex = 17;
+            this.colBrandtiktok.HeaderText = "Nhãn hiệu";
+            this.colBrandtiktok.Name = "colBrandtiktok";
             // 
-            // txtXuatKhau
+            // colProductNametiktok
             // 
-            this.txtXuatKhau.Location = new System.Drawing.Point(519, 128);
-            this.txtXuatKhau.Multiline = true;
-            this.txtXuatKhau.Name = "txtXuatKhau";
-            this.txtXuatKhau.Size = new System.Drawing.Size(263, 25);
-            this.txtXuatKhau.TabIndex = 18;
+            this.colProductNametiktok.HeaderText = "Tên sản phẩm";
+            this.colProductNametiktok.Name = "colProductNametiktok";
             // 
-            // txtLoaiSp
+            // colDescreptionTiktok
             // 
-            this.txtLoaiSp.Location = new System.Drawing.Point(519, 253);
-            this.txtLoaiSp.Multiline = true;
-            this.txtLoaiSp.Name = "txtLoaiSp";
-            this.txtLoaiSp.Size = new System.Drawing.Size(263, 25);
-            this.txtLoaiSp.TabIndex = 22;
+            this.colDescreptionTiktok.HeaderText = "Mô tả sản phẩm";
+            this.colDescreptionTiktok.Name = "colDescreptionTiktok";
             // 
-            // label27
+            // colWeightTiktok
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(796, 105);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(73, 16);
-            this.label27.TabIndex = 58;
-            this.label27.Text = "Người Dịch";
+            this.colWeightTiktok.HeaderText = "Trọng lượng bưu kiện (g)";
+            this.colWeightTiktok.Name = "colWeightTiktok";
             // 
-            // label26
+            // colLeght
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(796, 136);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(73, 16);
-            this.label26.TabIndex = 60;
-            this.label26.Text = "Kích Thước";
+            this.colLeght.HeaderText = "Chiều dài bưu kiện(cm)";
+            this.colLeght.Name = "colLeght";
+            // 
+            // ColWeight
+            // 
+            this.ColWeight.HeaderText = "Chiều rộng bưu kiện(cm)";
+            this.ColWeight.Name = "ColWeight";
+            // 
+            // colHeight
+            // 
+            this.colHeight.HeaderText = "Chiều cao bưu kiện(cm)";
+            this.colHeight.Name = "colHeight";
+            // 
+            // colDelivery
+            // 
+            this.colDelivery.HeaderText = "Tùy chọn giao hàng";
+            this.colDelivery.Name = "colDelivery";
+            // 
+            // colProperty_value_1
+            // 
+            this.colProperty_value_1.HeaderText = "Biến thể 1 (Màu sắc)";
+            this.colProperty_value_1.Name = "colProperty_value_1";
+            // 
+            // colProperty_1_image
+            // 
+            this.colProperty_1_image.HeaderText = "Hình ảnh của Biến thể 1";
+            this.colProperty_1_image.Name = "colProperty_1_image";
+            // 
+            // colProperty_value_2
+            // 
+            this.colProperty_value_2.HeaderText = "Biến thể 2 (Kích thước)";
+            this.colProperty_value_2.Name = "colProperty_value_2";
+            // 
+            // colPriceTikTok
+            // 
+            this.colPriceTikTok.HeaderText = "Giá bán lẻ (Nội tệ)";
+            this.colPriceTikTok.Name = "colPriceTikTok";
+            // 
+            // colQuantityTiktok
+            // 
+            this.colQuantityTiktok.HeaderText = "Số lượng";
+            this.colQuantityTiktok.Name = "colQuantityTiktok";
+            // 
+            // colSeller_sku
+            // 
+            this.colSeller_sku.HeaderText = "SKU người bán";
+            this.colSeller_sku.Name = "colSeller_sku";
+            // 
+            // colMain_image
+            // 
+            this.colMain_image.HeaderText = "Hình ảnh sản phẩm chính";
+            this.colMain_image.Name = "colMain_image";
+            // 
+            // colImage_2
+            // 
+            this.colImage_2.HeaderText = "Hình ảnh sản phẩm 2";
+            this.colImage_2.Name = "colImage_2";
+            // 
+            // colImage_3
+            // 
+            this.colImage_3.HeaderText = "Hình ảnh sản phẩm 3";
+            this.colImage_3.Name = "colImage_3";
+            // 
+            // colImage_4
+            // 
+            this.colImage_4.HeaderText = "Hình ảnh sản phẩm 4";
+            this.colImage_4.Name = "colImage_4";
+            // 
+            // colImage_5
+            // 
+            this.colImage_5.HeaderText = "Hình ảnh sản phẩm 5";
+            this.colImage_5.Name = "colImage_5";
+            // 
+            // colImage_6
+            // 
+            this.colImage_6.HeaderText = "Hình ảnh sản phẩm 6";
+            this.colImage_6.Name = "colImage_6";
+            // 
+            // colImage_7
+            // 
+            this.colImage_7.HeaderText = "Hình ảnh sản phẩm 7";
+            this.colImage_7.Name = "colImage_7";
+            // 
+            // colImage_8
+            // 
+            this.colImage_8.HeaderText = "Hình ảnh sản phẩm 8";
+            this.colImage_8.Name = "colImage_8";
+            // 
+            // col_image_9
+            // 
+            this.col_image_9.HeaderText = "Hình ảnh sản phẩm 9";
+            this.col_image_9.Name = "col_image_9";
+            // 
+            // colSize_chart
+            // 
+            this.colSize_chart.HeaderText = "Bảng kích thước";
+            this.colSize_chart.Name = "colSize_chart";
+            // 
+            // colDate
+            // 
+            this.colDate.HeaderText = "Năm";
+            this.colDate.Name = "colDate";
+            // 
+            // colNXBTiktok
+            // 
+            this.colNXBTiktok.HeaderText = "Nhà xuất bản";
+            this.colNXBTiktok.Name = "colNXBTiktok";
+            // 
+            // colISBNISN
+            // 
+            this.colISBNISN.HeaderText = "ISBN/ISSN";
+            this.colISBNISN.Name = "colISBNISN";
+            // 
+            // colTrans
+            // 
+            this.colTrans.HeaderText = "Người dịch";
+            this.colTrans.Name = "colTrans";
+            // 
+            // colBTV
+            // 
+            this.colBTV.HeaderText = "Biên tập viên";
+            this.colBTV.Name = "colBTV";
+            // 
+            // colSoTrangtiktok
+            // 
+            this.colSoTrangtiktok.HeaderText = "Số trang";
+            this.colSoTrangtiktok.Name = "colSoTrangtiktok";
+            // 
+            // btnExportTiktok
+            // 
+            this.btnExportTiktok.Location = new System.Drawing.Point(1653, 8);
+            this.btnExportTiktok.Name = "btnExportTiktok";
+            this.btnExportTiktok.Size = new System.Drawing.Size(108, 23);
+            this.btnExportTiktok.TabIndex = 73;
+            this.btnExportTiktok.Text = "Export TikTok";
+            this.btnExportTiktok.UseVisualStyleBackColor = true;
+            this.btnExportTiktok.Click += new System.EventHandler(this.btnExportTiktok_Click);
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(11, 43);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(93, 16);
+            this.label31.TabIndex = 75;
+            this.label31.Text = "Ngành TikTok";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "926344/Văn học & Nghệ thuật/Nhiếp ảnh & Video",
+            "926472/Văn học & Nghệ thuật/Tiểu sử & Hồi ký",
+            "926600/Kinh tế & Quản lý/Kinh doanh & Quản lý",
+            "926728/Sách dành cho trẻ em & trẻ sơ sinh/Văn học & nghệ thuật thiếu nhi",
+            "926856/Văn học & Nghệ thuật/Văn học",
+            "926984/Giáo dục & Trường học/Sách giáo khoa",
+            "927496/Khoa học xã hội và nhân văn/Tâm lý học & Mối quan hệ",
+            "927624/Khoa học xã hội và nhân văn/Tôn giáo & Triết học",
+            "927752/Khoa học xã hội và nhân văn/Chính trị, Luật & Khoa học xã hội",
+            "927880/Khoa học & Công nghệ/Khoa học tự nhiên",
+            "928008/Khoa học xã hội và nhân văn/Lịch sử & Văn hóa",
+            "928136/Khoa học xã hội và nhân văn/Sự nghiệp & Tự lực",
+            "928264/Khoa học xã hội và nhân văn/Nuôi dạy con cái & Gia đình",
+            "928392/Phong cách sống & Sở thích/Công thức & Nấu nướng",
+            "928520/Phong cách sống & Sở thích/Thủ công mỹ nghệ & Tự làm",
+            "928648/Phong cách sống & Sở thích/Sức khỏe, Thể hình & Ăn kiêng",
+            "928904/Khoa học & Công nghệ/Y khoa",
+            "929032/Phong cách sống & Sở thích/Du lịch & Bản đồ",
+            "929160/Giáo dục & Trường học/Ngôn ngữ & Từ điển",
+            "929288/Phong cách sống & Sở thích/Truyện tranh & Manga",
+            "929416/Phong cách sống & Sở thích/Tử vi",
+            "929544/Khoa học & Công nghệ/Máy tính & Mạng",
+            "987016/Văn học & Nghệ thuật/Viễn tưởng",
+            "987144/Văn học & Nghệ thuật/Biểu diễn nghệ thuật",
+            "987400/Văn học & Nghệ thuật/Âm nhạc",
+            "989064/Văn học & Nghệ thuật/Phim điện ảnh & Truyền hình",
+            "989192/Văn học & Nghệ thuật/Vẽ tranh & Thiết kế",
+            "989448/Kinh tế & Quản lý/Kinh tế",
+            "989576/Kinh tế & Quản lý/Tài chính & Đầu tư",
+            "989832/Sách dành cho trẻ em & trẻ sơ sinh/Sách giáo dục sớm & sách mềm",
+            "989960/Sách dành cho trẻ em & trẻ sơ sinh/Sách hoạt động",
+            "990088/Sách dành cho trẻ em & trẻ sơ sinh/Sách tranh",
+            "990856/Khoa học & Công nghệ/Kiến trúc",
+            "991112/Khoa học & Công nghệ/Nông lâm ngư nghiệp",
+            "991240/Khoa học & Công nghệ/Công nghệ công nghiệp",
+            "992520/Phong cách sống & Sở thích/Thời trang & Làm đẹp",
+            "992648/Phong cách sống & Sở thích/Giáo dục thai sản & tiền sản",
+            "992776/Phong cách sống & Sở thích/Thể thao & Thể hình",
+            "993032/Giáo dục & Trường học/Sách tư vấn",
+            "997128/Sách dành cho trẻ em & trẻ sơ sinh/Khoa học xã hội và nhân văn cho thiếu n" +
+                "hi",
+            "997256/Sách dành cho trẻ em & trẻ sơ sinh/Khoa học và công nghệ cho thiếu nhi"});
+            this.comboBox1.Location = new System.Drawing.Point(110, 42);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(671, 21);
+            this.comboBox1.TabIndex = 74;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(680, 125);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(47, 16);
+            this.label32.TabIndex = 77;
+            this.label32.Text = "Tồn ttk";
+            // 
+            // txtSlTikTok
+            // 
+            this.txtSlTikTok.Location = new System.Drawing.Point(730, 121);
+            this.txtSlTikTok.Multiline = true;
+            this.txtSlTikTok.Name = "txtSlTikTok";
+            this.txtSlTikTok.Size = new System.Drawing.Size(51, 25);
+            this.txtSlTikTok.TabIndex = 76;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(796, 42);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(73, 16);
+            this.label33.TabIndex = 79;
+            this.label33.Text = "ISBN/ISSN";
+            // 
+            // txtISBN
+            // 
+            this.txtISBN.Location = new System.Drawing.Point(875, 39);
+            this.txtISBN.Multiline = true;
+            this.txtISBN.Name = "txtISBN";
+            this.txtISBN.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtISBN.Size = new System.Drawing.Size(194, 25);
+            this.txtISBN.TabIndex = 78;
             // 
             // ExportShopeeAndHaravan
             // 
@@ -1614,6 +1966,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListHrv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListShopee)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTikTok)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1789,5 +2142,44 @@
         private System.Windows.Forms.TextBox txtSlHrv;
         private System.Windows.Forms.TextBox txtSlShopee;
         private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.DataGridView dgvTikTok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCategory;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colBrandtiktok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colProductNametiktok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDescreptionTiktok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colWeightTiktok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colLeght;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColWeight;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHeight;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDelivery;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colProperty_value_1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colProperty_1_image;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colProperty_value_2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPriceTikTok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colQuantityTiktok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSeller_sku;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMain_image;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colImage_2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colImage_3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colImage_4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colImage_5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colImage_6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colImage_7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colImage_8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_image_9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSize_chart;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNXBTiktok;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colISBNISN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTrans;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colBTV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSoTrangtiktok;
+        private System.Windows.Forms.Button btnExportTiktok;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox txtSlTikTok;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox txtISBN;
     }
 }
