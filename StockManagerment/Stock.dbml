@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Stock_Management" Class="StockDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=NV19\SQLEXPRESS;Initial Catalog=Stock_Management;Integrated Security=True" SettingsObjectName="StockManagerment.Properties.Settings" SettingsPropertyName="Stock_ManagementConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Stock_Management;Integrated Security=True" SettingsObjectName="StockManagerment.Properties.Settings" SettingsPropertyName="Stock_ManagementConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.productInStock" Member="productInStocks">
     <Type Name="productInStock">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -26,6 +26,18 @@
       <Column Name="SKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbTikTokInfo" Member="tbTikTokInfos">
+    <Type Name="tbTikTokInfo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="product_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="product_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sku_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="variation_value" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="seller_sku" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

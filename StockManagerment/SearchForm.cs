@@ -195,5 +195,10 @@ namespace StockManagerment
             mains.Show();
             this.Hide();
         }
+
+        private void btnSoldOut_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

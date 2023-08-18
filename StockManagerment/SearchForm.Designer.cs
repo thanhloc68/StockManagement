@@ -186,6 +186,7 @@
             this.btnSoldOut.TabIndex = 24;
             this.btnSoldOut.Text = "Hạ Tồn";
             this.btnSoldOut.UseVisualStyleBackColor = true;
+            this.btnSoldOut.Click += new System.EventHandler(this.btnSoldOut_Click);
             // 
             // groupBox1
             // 

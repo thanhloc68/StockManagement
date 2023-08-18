@@ -52,3 +52,4 @@ D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManag
 D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CopyComplete
 D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.exe
 D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.pdb
+D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.TikTokInfo.resources

@@ -31,6 +31,7 @@
             this.btnExportExcel = new System.Windows.Forms.Button();
             this.btnStockManagerment = new System.Windows.Forms.Button();
             this.btninsertupdateShopee = new System.Windows.Forms.Button();
+            this.btnTikTok = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExportExcel
@@ -63,11 +64,22 @@
             this.btninsertupdateShopee.UseVisualStyleBackColor = true;
             this.btninsertupdateShopee.Click += new System.EventHandler(this.btninsertupdateShopee_Click);
             // 
+            // btnTikTok
+            // 
+            this.btnTikTok.Location = new System.Drawing.Point(523, 42);
+            this.btnTikTok.Name = "btnTikTok";
+            this.btnTikTok.Size = new System.Drawing.Size(135, 25);
+            this.btnTikTok.TabIndex = 4;
+            this.btnTikTok.Text = "Cập nhật tiktok";
+            this.btnTikTok.UseVisualStyleBackColor = true;
+            this.btnTikTok.Click += new System.EventHandler(this.btnTikTok_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTikTok);
             this.Controls.Add(this.btninsertupdateShopee);
             this.Controls.Add(this.btnStockManagerment);
             this.Controls.Add(this.btnExportExcel);
@@ -82,6 +94,7 @@
         private System.Windows.Forms.Button btnExportExcel;
         private System.Windows.Forms.Button btnStockManagerment;
         private System.Windows.Forms.Button btninsertupdateShopee;
+        private System.Windows.Forms.Button btnTikTok;
     }
 }
 

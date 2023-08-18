@@ -36,6 +36,9 @@ namespace StockManagerment
     partial void InserttbShopeeInfo(tbShopeeInfo instance);
     partial void UpdatetbShopeeInfo(tbShopeeInfo instance);
     partial void DeletetbShopeeInfo(tbShopeeInfo instance);
+    partial void InserttbTikTokInfo(tbTikTokInfo instance);
+    partial void UpdatetbTikTokInfo(tbTikTokInfo instance);
+    partial void DeletetbTikTokInfo(tbTikTokInfo instance);
     #endregion
 		
 		public StockDataContext() : 
@@ -81,6 +84,14 @@ namespace StockManagerment
 			get
 			{
 				return this.GetTable<tbShopeeInfo>();
+			}
+		}
+		
+		public System.Data.Linq.Table<tbTikTokInfo> tbTikTokInfos
+		{
+			get
+			{
+				return this.GetTable<tbTikTokInfo>();
 			}
 		}
 	}
@@ -616,6 +627,236 @@ namespace StockManagerment
 					this._Quantity = value;
 					this.SendPropertyChanged("Quantity");
 					this.OnQuantityChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tbTikTokInfo")]
+	public partial class tbTikTokInfo : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _id;
+		
+		private string _product_id;
+		
+		private string _product_name;
+		
+		private string _sku_id;
+		
+		private string _variation_value;
+		
+		private System.Nullable<int> _price;
+		
+		private System.Nullable<int> _quantity;
+		
+		private string _seller_sku;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnidChanging(int value);
+    partial void OnidChanged();
+    partial void Onproduct_idChanging(string value);
+    partial void Onproduct_idChanged();
+    partial void Onproduct_nameChanging(string value);
+    partial void Onproduct_nameChanged();
+    partial void Onsku_idChanging(string value);
+    partial void Onsku_idChanged();
+    partial void Onvariation_valueChanging(string value);
+    partial void Onvariation_valueChanged();
+    partial void OnpriceChanging(System.Nullable<int> value);
+    partial void OnpriceChanged();
+    partial void OnquantityChanging(System.Nullable<int> value);
+    partial void OnquantityChanged();
+    partial void Onseller_skuChanging(string value);
+    partial void Onseller_skuChanged();
+    #endregion
+		
+		public tbTikTokInfo()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int id
+		{
+			get
+			{
+				return this._id;
+			}
+			set
+			{
+				if ((this._id != value))
+				{
+					this.OnidChanging(value);
+					this.SendPropertyChanging();
+					this._id = value;
+					this.SendPropertyChanged("id");
+					this.OnidChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_product_id", DbType="NVarChar(50)")]
+		public string product_id
+		{
+			get
+			{
+				return this._product_id;
+			}
+			set
+			{
+				if ((this._product_id != value))
+				{
+					this.Onproduct_idChanging(value);
+					this.SendPropertyChanging();
+					this._product_id = value;
+					this.SendPropertyChanged("product_id");
+					this.Onproduct_idChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_product_name", DbType="NVarChar(50)")]
+		public string product_name
+		{
+			get
+			{
+				return this._product_name;
+			}
+			set
+			{
+				if ((this._product_name != value))
+				{
+					this.Onproduct_nameChanging(value);
+					this.SendPropertyChanging();
+					this._product_name = value;
+					this.SendPropertyChanged("product_name");
+					this.Onproduct_nameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_sku_id", DbType="NVarChar(50)")]
+		public string sku_id
+		{
+			get
+			{
+				return this._sku_id;
+			}
+			set
+			{
+				if ((this._sku_id != value))
+				{
+					this.Onsku_idChanging(value);
+					this.SendPropertyChanging();
+					this._sku_id = value;
+					this.SendPropertyChanged("sku_id");
+					this.Onsku_idChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_variation_value", DbType="NVarChar(50)")]
+		public string variation_value
+		{
+			get
+			{
+				return this._variation_value;
+			}
+			set
+			{
+				if ((this._variation_value != value))
+				{
+					this.Onvariation_valueChanging(value);
+					this.SendPropertyChanging();
+					this._variation_value = value;
+					this.SendPropertyChanged("variation_value");
+					this.Onvariation_valueChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_price", DbType="Int")]
+		public System.Nullable<int> price
+		{
+			get
+			{
+				return this._price;
+			}
+			set
+			{
+				if ((this._price != value))
+				{
+					this.OnpriceChanging(value);
+					this.SendPropertyChanging();
+					this._price = value;
+					this.SendPropertyChanged("price");
+					this.OnpriceChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_quantity", DbType="Int")]
+		public System.Nullable<int> quantity
+		{
+			get
+			{
+				return this._quantity;
+			}
+			set
+			{
+				if ((this._quantity != value))
+				{
+					this.OnquantityChanging(value);
+					this.SendPropertyChanging();
+					this._quantity = value;
+					this.SendPropertyChanged("quantity");
+					this.OnquantityChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_seller_sku", DbType="NVarChar(20)")]
+		public string seller_sku
+		{
+			get
+			{
+				return this._seller_sku;
+			}
+			set
+			{
+				if ((this._seller_sku != value))
+				{
+					this.Onseller_skuChanging(value);
+					this.SendPropertyChanging();
+					this._seller_sku = value;
+					this.SendPropertyChanged("seller_sku");
+					this.Onseller_skuChanged();
 				}
 			}
 		}

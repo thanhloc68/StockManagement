@@ -41,5 +41,12 @@ namespace StockManagerment
             searchForm.Show();
             this.Hide();
         }
+
+        private void btnTikTok_Click(object sender, EventArgs e)
+        {
+            TikTokInfo tiktokform = new TikTokInfo();
+            tiktokform.Show();
+            this.Hide();
+        }
     }
 }
