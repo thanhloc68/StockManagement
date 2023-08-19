@@ -53,3 +53,31 @@ D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManag
 D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.exe
 D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.pdb
 D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.TikTokInfo.resources
+D:\Project\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe.config
+D:\Project\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe
+D:\Project\StockManagement\StockManagerment\bin\Debug\StockManagerment.pdb
+D:\Project\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.dll
+D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.dll
+D:\Project\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.dll
+D:\Project\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.dll
+D:\Project\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.pdb
+D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.xml
+D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.xml
+D:\Project\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.xml
+D:\Project\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.xml
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.AssemblyReference.cache
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.SuggestedBindingRedirects.cache
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.ExportShopeeAndHaravan.resources
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.Main.resources
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.Properties.Resources.resources
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.SearchForm.resources
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.StockManagerment.resources
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.TikTokInfo.resources
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.GenerateResource.cache
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CoreCompileInputs.cache
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CopyComplete
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.exe
+D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.pdb

@@ -29,6 +29,45 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.txtISBN = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txtSlTikTok = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.cbbIndustryTiktok = new System.Windows.Forms.ComboBox();
+            this.btnExportTiktok = new System.Windows.Forms.Button();
+            this.dgvTikTok = new System.Windows.Forms.DataGridView();
+            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colBrandtiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProductNametiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDescreptionTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colWeightTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colLeght = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColWeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDelivery = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProperty_value_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProperty_1_image = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProperty_value_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPriceTikTok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colQuantityTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSeller_sku = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colMain_image = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colImage_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_image_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSize_chart = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNXBTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colISBNISN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTrans = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colBTV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSoTrangtiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnBack = new System.Windows.Forms.Button();
             this.lbCount = new System.Windows.Forms.Label();
             this.btnGetId = new System.Windows.Forms.Button();
@@ -197,49 +236,10 @@
             this.coldiachitochuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtNameProduct = new System.Windows.Forms.TextBox();
             this.btnAddProduct = new System.Windows.Forms.Button();
-            this.dgvTikTok = new System.Windows.Forms.DataGridView();
-            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colBrandtiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colProductNametiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDescreptionTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colWeightTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colLeght = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColWeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colHeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDelivery = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colProperty_value_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colProperty_1_image = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colProperty_value_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPriceTikTok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colQuantityTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSeller_sku = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colMain_image = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colImage_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colImage_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colImage_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colImage_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colImage_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colImage_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colImage_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_image_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSize_chart = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colNXBTiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colISBNISN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTrans = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colBTV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSoTrangtiktok = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnExportTiktok = new System.Windows.Forms.Button();
-            this.label31 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.txtSlTikTok = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.txtISBN = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTikTok)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListHrv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListShopee)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTikTok)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -249,7 +249,7 @@
             this.panel1.Controls.Add(this.label32);
             this.panel1.Controls.Add(this.txtSlTikTok);
             this.panel1.Controls.Add(this.label31);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.cbbIndustryTiktok);
             this.panel1.Controls.Add(this.btnExportTiktok);
             this.panel1.Controls.Add(this.dgvTikTok);
             this.panel1.Controls.Add(this.btnBack);
@@ -328,6 +328,310 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1775, 1037);
             this.panel1.TabIndex = 0;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(796, 42);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(73, 16);
+            this.label33.TabIndex = 79;
+            this.label33.Text = "ISBN/ISSN";
+            // 
+            // txtISBN
+            // 
+            this.txtISBN.Location = new System.Drawing.Point(875, 39);
+            this.txtISBN.Multiline = true;
+            this.txtISBN.Name = "txtISBN";
+            this.txtISBN.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtISBN.Size = new System.Drawing.Size(194, 25);
+            this.txtISBN.TabIndex = 78;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(680, 125);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(47, 16);
+            this.label32.TabIndex = 77;
+            this.label32.Text = "Tồn ttk";
+            // 
+            // txtSlTikTok
+            // 
+            this.txtSlTikTok.Location = new System.Drawing.Point(730, 121);
+            this.txtSlTikTok.Multiline = true;
+            this.txtSlTikTok.Name = "txtSlTikTok";
+            this.txtSlTikTok.Size = new System.Drawing.Size(51, 25);
+            this.txtSlTikTok.TabIndex = 76;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(11, 43);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(93, 16);
+            this.label31.TabIndex = 75;
+            this.label31.Text = "Ngành TikTok";
+            // 
+            // cbbIndustryTiktok
+            // 
+            this.cbbIndustryTiktok.FormattingEnabled = true;
+            this.cbbIndustryTiktok.Items.AddRange(new object[] {
+            "Văn học & Nghệ thuật/Nhiếp ảnh & Video (926344)",
+            "Văn học & Nghệ thuật/Tiểu sử & Hồi ký (926472)",
+            "Kinh tế & Quản lý/Kinh doanh & Quản lý (926600)",
+            "Sách dành cho trẻ em & trẻ sơ sinh/Văn học & nghệ thuật thiếu nhi (926728)",
+            "Văn học & Nghệ thuật/Văn học (926856)",
+            "Giáo dục & Trường học/Sách giáo khoa (926984)",
+            "Khoa học xã hội và nhân văn/Tâm lý học & Mối quan hệ (927496)",
+            "Khoa học xã hội và nhân văn/Tôn giáo & Triết học (927624)",
+            "Khoa học xã hội và nhân văn/Chính trị, Luật & Khoa học xã hội (927752)",
+            "Khoa học & Công nghệ/Khoa học tự nhiên (927880)",
+            "Khoa học xã hội và nhân văn/Lịch sử & Văn hóa (928008)",
+            "Khoa học xã hội và nhân văn/Sự nghiệp & Tự lực (928136)",
+            "Khoa học xã hội và nhân văn/Nuôi dạy con cái & Gia đình (928264)",
+            "Phong cách sống & Sở thích/Công thức & Nấu nướng (928392)",
+            "Phong cách sống & Sở thích/Thủ công mỹ nghệ & Tự làm (928520)",
+            "Phong cách sống & Sở thích/Sức khỏe, Thể hình & Ăn kiêng (928648)",
+            "Khoa học & Công nghệ/Y khoa (928904)",
+            "Phong cách sống & Sở thích/Du lịch & Bản đồ (929032)",
+            "Giáo dục & Trường học/Ngôn ngữ & Từ điển (929160)",
+            "Phong cách sống & Sở thích/Truyện tranh & Manga (929288)",
+            "Phong cách sống & Sở thích/Tử vi (929416)",
+            "Khoa học & Công nghệ/Máy tính & Mạng (929544)",
+            "Văn học & Nghệ thuật/Viễn tưởng (987016)",
+            "Văn học & Nghệ thuật/Biểu diễn nghệ thuật (987144)",
+            "Văn học & Nghệ thuật/Âm nhạc (987400)",
+            "Văn học & Nghệ thuật/Phim điện ảnh & Truyền hình (989064)",
+            "Văn học & Nghệ thuật/Vẽ tranh & Thiết kế (989192)",
+            "Kinh tế & Quản lý/Kinh tế (989448)",
+            "Kinh tế & Quản lý/Tài chính & Đầu tư (989576)",
+            "Sách dành cho trẻ em & trẻ sơ sinh/Sách giáo dục sớm & sách mềm (989832)",
+            "Sách dành cho trẻ em & trẻ sơ sinh/Sách hoạt động (989960)",
+            "Sách dành cho trẻ em & trẻ sơ sinh/Sách tranh (990088)",
+            "Khoa học & Công nghệ/Kiến trúc (990856)",
+            "Khoa học & Công nghệ/Nông lâm ngư nghiệp (991112)",
+            "Khoa học & Công nghệ/Công nghệ công nghiệp (991240)",
+            "Phong cách sống & Sở thích/Thời trang & Làm đẹp (992520)",
+            "Phong cách sống & Sở thích/Giáo dục thai sản & tiền sản (992648)",
+            "Phong cách sống & Sở thích/Thể thao & Thể hình (992776)",
+            "Giáo dục & Trường học/Sách tư vấn (993032)",
+            "Sách dành cho trẻ em & trẻ sơ sinh/Khoa học xã hội và nhân văn cho thiếu nhi (997" +
+                "128)",
+            "Sách dành cho trẻ em & trẻ sơ sinh/Khoa học và công nghệ cho thiếu nhi (997256)"});
+            this.cbbIndustryTiktok.Location = new System.Drawing.Point(110, 42);
+            this.cbbIndustryTiktok.Name = "cbbIndustryTiktok";
+            this.cbbIndustryTiktok.Size = new System.Drawing.Size(671, 21);
+            this.cbbIndustryTiktok.TabIndex = 74;
+            // 
+            // btnExportTiktok
+            // 
+            this.btnExportTiktok.Location = new System.Drawing.Point(1653, 8);
+            this.btnExportTiktok.Name = "btnExportTiktok";
+            this.btnExportTiktok.Size = new System.Drawing.Size(108, 23);
+            this.btnExportTiktok.TabIndex = 73;
+            this.btnExportTiktok.Text = "Export TikTok";
+            this.btnExportTiktok.UseVisualStyleBackColor = true;
+            this.btnExportTiktok.Click += new System.EventHandler(this.btnExportTiktok_Click);
+            // 
+            // dgvTikTok
+            // 
+            this.dgvTikTok.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvTikTok.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTikTok.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colCategory,
+            this.colBrandtiktok,
+            this.colProductNametiktok,
+            this.colDescreptionTiktok,
+            this.colWeightTiktok,
+            this.colLeght,
+            this.ColWeight,
+            this.colHeight,
+            this.colDelivery,
+            this.colProperty_value_1,
+            this.colProperty_1_image,
+            this.colProperty_value_2,
+            this.colPriceTikTok,
+            this.colQuantityTiktok,
+            this.colSeller_sku,
+            this.colMain_image,
+            this.colImage_2,
+            this.colImage_3,
+            this.colImage_4,
+            this.colImage_5,
+            this.colImage_6,
+            this.colImage_7,
+            this.colImage_8,
+            this.col_image_9,
+            this.colSize_chart,
+            this.colDate,
+            this.colNXBTiktok,
+            this.colISBNISN,
+            this.colTrans,
+            this.colBTV,
+            this.colSoTrangtiktok});
+            this.dgvTikTok.Location = new System.Drawing.Point(988, 495);
+            this.dgvTikTok.Name = "dgvTikTok";
+            this.dgvTikTok.Size = new System.Drawing.Size(494, 265);
+            this.dgvTikTok.TabIndex = 72;
+            // 
+            // colCategory
+            // 
+            this.colCategory.HeaderText = "Hạng Mục";
+            this.colCategory.Name = "colCategory";
+            // 
+            // colBrandtiktok
+            // 
+            this.colBrandtiktok.HeaderText = "Nhãn hiệu";
+            this.colBrandtiktok.Name = "colBrandtiktok";
+            // 
+            // colProductNametiktok
+            // 
+            this.colProductNametiktok.HeaderText = "Tên sản phẩm";
+            this.colProductNametiktok.Name = "colProductNametiktok";
+            // 
+            // colDescreptionTiktok
+            // 
+            this.colDescreptionTiktok.HeaderText = "Mô tả sản phẩm";
+            this.colDescreptionTiktok.Name = "colDescreptionTiktok";
+            // 
+            // colWeightTiktok
+            // 
+            this.colWeightTiktok.HeaderText = "Trọng lượng bưu kiện (g)";
+            this.colWeightTiktok.Name = "colWeightTiktok";
+            // 
+            // colLeght
+            // 
+            this.colLeght.HeaderText = "Chiều dài bưu kiện(cm)";
+            this.colLeght.Name = "colLeght";
+            // 
+            // ColWeight
+            // 
+            this.ColWeight.HeaderText = "Chiều rộng bưu kiện(cm)";
+            this.ColWeight.Name = "ColWeight";
+            // 
+            // colHeight
+            // 
+            this.colHeight.HeaderText = "Chiều cao bưu kiện(cm)";
+            this.colHeight.Name = "colHeight";
+            // 
+            // colDelivery
+            // 
+            this.colDelivery.HeaderText = "Tùy chọn giao hàng";
+            this.colDelivery.Name = "colDelivery";
+            // 
+            // colProperty_value_1
+            // 
+            this.colProperty_value_1.HeaderText = "Biến thể 1 (Màu sắc)";
+            this.colProperty_value_1.Name = "colProperty_value_1";
+            // 
+            // colProperty_1_image
+            // 
+            this.colProperty_1_image.HeaderText = "Hình ảnh của Biến thể 1";
+            this.colProperty_1_image.Name = "colProperty_1_image";
+            // 
+            // colProperty_value_2
+            // 
+            this.colProperty_value_2.HeaderText = "Biến thể 2 (Kích thước)";
+            this.colProperty_value_2.Name = "colProperty_value_2";
+            // 
+            // colPriceTikTok
+            // 
+            this.colPriceTikTok.HeaderText = "Giá bán lẻ (Nội tệ)";
+            this.colPriceTikTok.Name = "colPriceTikTok";
+            // 
+            // colQuantityTiktok
+            // 
+            this.colQuantityTiktok.HeaderText = "Số lượng";
+            this.colQuantityTiktok.Name = "colQuantityTiktok";
+            // 
+            // colSeller_sku
+            // 
+            this.colSeller_sku.HeaderText = "SKU người bán";
+            this.colSeller_sku.Name = "colSeller_sku";
+            // 
+            // colMain_image
+            // 
+            this.colMain_image.HeaderText = "Hình ảnh sản phẩm chính";
+            this.colMain_image.Name = "colMain_image";
+            // 
+            // colImage_2
+            // 
+            this.colImage_2.HeaderText = "Hình ảnh sản phẩm 2";
+            this.colImage_2.Name = "colImage_2";
+            // 
+            // colImage_3
+            // 
+            this.colImage_3.HeaderText = "Hình ảnh sản phẩm 3";
+            this.colImage_3.Name = "colImage_3";
+            // 
+            // colImage_4
+            // 
+            this.colImage_4.HeaderText = "Hình ảnh sản phẩm 4";
+            this.colImage_4.Name = "colImage_4";
+            // 
+            // colImage_5
+            // 
+            this.colImage_5.HeaderText = "Hình ảnh sản phẩm 5";
+            this.colImage_5.Name = "colImage_5";
+            // 
+            // colImage_6
+            // 
+            this.colImage_6.HeaderText = "Hình ảnh sản phẩm 6";
+            this.colImage_6.Name = "colImage_6";
+            // 
+            // colImage_7
+            // 
+            this.colImage_7.HeaderText = "Hình ảnh sản phẩm 7";
+            this.colImage_7.Name = "colImage_7";
+            // 
+            // colImage_8
+            // 
+            this.colImage_8.HeaderText = "Hình ảnh sản phẩm 8";
+            this.colImage_8.Name = "colImage_8";
+            // 
+            // col_image_9
+            // 
+            this.col_image_9.HeaderText = "Hình ảnh sản phẩm 9";
+            this.col_image_9.Name = "col_image_9";
+            // 
+            // colSize_chart
+            // 
+            this.colSize_chart.HeaderText = "Bảng kích thước";
+            this.colSize_chart.Name = "colSize_chart";
+            // 
+            // colDate
+            // 
+            this.colDate.HeaderText = "Năm";
+            this.colDate.Name = "colDate";
+            // 
+            // colNXBTiktok
+            // 
+            this.colNXBTiktok.HeaderText = "Nhà xuất bản";
+            this.colNXBTiktok.Name = "colNXBTiktok";
+            // 
+            // colISBNISN
+            // 
+            this.colISBNISN.HeaderText = "ISBN/ISSN";
+            this.colISBNISN.Name = "colISBNISN";
+            // 
+            // colTrans
+            // 
+            this.colTrans.HeaderText = "Người dịch";
+            this.colTrans.Name = "colTrans";
+            // 
+            // colBTV
+            // 
+            this.colBTV.HeaderText = "Biên tập viên";
+            this.colBTV.Name = "colBTV";
+            // 
+            // colSoTrangtiktok
+            // 
+            this.colSoTrangtiktok.HeaderText = "Số trang";
+            this.colSoTrangtiktok.Name = "colSoTrangtiktok";
             // 
             // btnBack
             // 
@@ -1350,7 +1654,7 @@
             // 
             this.colNghanhhang.HeaderText = "Nghành Hàng";
             this.colNghanhhang.Name = "colNghanhhang";
-            this.colNghanhhang.Width = 99;
+            this.colNghanhhang.Width = 91;
             // 
             // colTen
             // 
@@ -1362,7 +1666,7 @@
             // 
             this.colMota.HeaderText = "Mô Tả";
             this.colMota.Name = "colMota";
-            this.colMota.Width = 63;
+            this.colMota.Width = 47;
             // 
             // colSKU
             // 
@@ -1374,7 +1678,7 @@
             // 
             this.colMasp.HeaderText = "Mã Sản Phẩm";
             this.colMasp.Name = "colMasp";
-            this.colMasp.Width = 99;
+            this.colMasp.Width = 91;
             // 
             // colPLN1
             // 
@@ -1647,310 +1951,6 @@
             this.btnAddProduct.UseVisualStyleBackColor = true;
             this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
-            // dgvTikTok
-            // 
-            this.dgvTikTok.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvTikTok.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTikTok.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colCategory,
-            this.colBrandtiktok,
-            this.colProductNametiktok,
-            this.colDescreptionTiktok,
-            this.colWeightTiktok,
-            this.colLeght,
-            this.ColWeight,
-            this.colHeight,
-            this.colDelivery,
-            this.colProperty_value_1,
-            this.colProperty_1_image,
-            this.colProperty_value_2,
-            this.colPriceTikTok,
-            this.colQuantityTiktok,
-            this.colSeller_sku,
-            this.colMain_image,
-            this.colImage_2,
-            this.colImage_3,
-            this.colImage_4,
-            this.colImage_5,
-            this.colImage_6,
-            this.colImage_7,
-            this.colImage_8,
-            this.col_image_9,
-            this.colSize_chart,
-            this.colDate,
-            this.colNXBTiktok,
-            this.colISBNISN,
-            this.colTrans,
-            this.colBTV,
-            this.colSoTrangtiktok});
-            this.dgvTikTok.Location = new System.Drawing.Point(988, 495);
-            this.dgvTikTok.Name = "dgvTikTok";
-            this.dgvTikTok.Size = new System.Drawing.Size(494, 265);
-            this.dgvTikTok.TabIndex = 72;
-            // 
-            // colCategory
-            // 
-            this.colCategory.HeaderText = "Hạng Mục";
-            this.colCategory.Name = "colCategory";
-            // 
-            // colBrandtiktok
-            // 
-            this.colBrandtiktok.HeaderText = "Nhãn hiệu";
-            this.colBrandtiktok.Name = "colBrandtiktok";
-            // 
-            // colProductNametiktok
-            // 
-            this.colProductNametiktok.HeaderText = "Tên sản phẩm";
-            this.colProductNametiktok.Name = "colProductNametiktok";
-            // 
-            // colDescreptionTiktok
-            // 
-            this.colDescreptionTiktok.HeaderText = "Mô tả sản phẩm";
-            this.colDescreptionTiktok.Name = "colDescreptionTiktok";
-            // 
-            // colWeightTiktok
-            // 
-            this.colWeightTiktok.HeaderText = "Trọng lượng bưu kiện (g)";
-            this.colWeightTiktok.Name = "colWeightTiktok";
-            // 
-            // colLeght
-            // 
-            this.colLeght.HeaderText = "Chiều dài bưu kiện(cm)";
-            this.colLeght.Name = "colLeght";
-            // 
-            // ColWeight
-            // 
-            this.ColWeight.HeaderText = "Chiều rộng bưu kiện(cm)";
-            this.ColWeight.Name = "ColWeight";
-            // 
-            // colHeight
-            // 
-            this.colHeight.HeaderText = "Chiều cao bưu kiện(cm)";
-            this.colHeight.Name = "colHeight";
-            // 
-            // colDelivery
-            // 
-            this.colDelivery.HeaderText = "Tùy chọn giao hàng";
-            this.colDelivery.Name = "colDelivery";
-            // 
-            // colProperty_value_1
-            // 
-            this.colProperty_value_1.HeaderText = "Biến thể 1 (Màu sắc)";
-            this.colProperty_value_1.Name = "colProperty_value_1";
-            // 
-            // colProperty_1_image
-            // 
-            this.colProperty_1_image.HeaderText = "Hình ảnh của Biến thể 1";
-            this.colProperty_1_image.Name = "colProperty_1_image";
-            // 
-            // colProperty_value_2
-            // 
-            this.colProperty_value_2.HeaderText = "Biến thể 2 (Kích thước)";
-            this.colProperty_value_2.Name = "colProperty_value_2";
-            // 
-            // colPriceTikTok
-            // 
-            this.colPriceTikTok.HeaderText = "Giá bán lẻ (Nội tệ)";
-            this.colPriceTikTok.Name = "colPriceTikTok";
-            // 
-            // colQuantityTiktok
-            // 
-            this.colQuantityTiktok.HeaderText = "Số lượng";
-            this.colQuantityTiktok.Name = "colQuantityTiktok";
-            // 
-            // colSeller_sku
-            // 
-            this.colSeller_sku.HeaderText = "SKU người bán";
-            this.colSeller_sku.Name = "colSeller_sku";
-            // 
-            // colMain_image
-            // 
-            this.colMain_image.HeaderText = "Hình ảnh sản phẩm chính";
-            this.colMain_image.Name = "colMain_image";
-            // 
-            // colImage_2
-            // 
-            this.colImage_2.HeaderText = "Hình ảnh sản phẩm 2";
-            this.colImage_2.Name = "colImage_2";
-            // 
-            // colImage_3
-            // 
-            this.colImage_3.HeaderText = "Hình ảnh sản phẩm 3";
-            this.colImage_3.Name = "colImage_3";
-            // 
-            // colImage_4
-            // 
-            this.colImage_4.HeaderText = "Hình ảnh sản phẩm 4";
-            this.colImage_4.Name = "colImage_4";
-            // 
-            // colImage_5
-            // 
-            this.colImage_5.HeaderText = "Hình ảnh sản phẩm 5";
-            this.colImage_5.Name = "colImage_5";
-            // 
-            // colImage_6
-            // 
-            this.colImage_6.HeaderText = "Hình ảnh sản phẩm 6";
-            this.colImage_6.Name = "colImage_6";
-            // 
-            // colImage_7
-            // 
-            this.colImage_7.HeaderText = "Hình ảnh sản phẩm 7";
-            this.colImage_7.Name = "colImage_7";
-            // 
-            // colImage_8
-            // 
-            this.colImage_8.HeaderText = "Hình ảnh sản phẩm 8";
-            this.colImage_8.Name = "colImage_8";
-            // 
-            // col_image_9
-            // 
-            this.col_image_9.HeaderText = "Hình ảnh sản phẩm 9";
-            this.col_image_9.Name = "col_image_9";
-            // 
-            // colSize_chart
-            // 
-            this.colSize_chart.HeaderText = "Bảng kích thước";
-            this.colSize_chart.Name = "colSize_chart";
-            // 
-            // colDate
-            // 
-            this.colDate.HeaderText = "Năm";
-            this.colDate.Name = "colDate";
-            // 
-            // colNXBTiktok
-            // 
-            this.colNXBTiktok.HeaderText = "Nhà xuất bản";
-            this.colNXBTiktok.Name = "colNXBTiktok";
-            // 
-            // colISBNISN
-            // 
-            this.colISBNISN.HeaderText = "ISBN/ISSN";
-            this.colISBNISN.Name = "colISBNISN";
-            // 
-            // colTrans
-            // 
-            this.colTrans.HeaderText = "Người dịch";
-            this.colTrans.Name = "colTrans";
-            // 
-            // colBTV
-            // 
-            this.colBTV.HeaderText = "Biên tập viên";
-            this.colBTV.Name = "colBTV";
-            // 
-            // colSoTrangtiktok
-            // 
-            this.colSoTrangtiktok.HeaderText = "Số trang";
-            this.colSoTrangtiktok.Name = "colSoTrangtiktok";
-            // 
-            // btnExportTiktok
-            // 
-            this.btnExportTiktok.Location = new System.Drawing.Point(1653, 8);
-            this.btnExportTiktok.Name = "btnExportTiktok";
-            this.btnExportTiktok.Size = new System.Drawing.Size(108, 23);
-            this.btnExportTiktok.TabIndex = 73;
-            this.btnExportTiktok.Text = "Export TikTok";
-            this.btnExportTiktok.UseVisualStyleBackColor = true;
-            this.btnExportTiktok.Click += new System.EventHandler(this.btnExportTiktok_Click);
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(11, 43);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(93, 16);
-            this.label31.TabIndex = 75;
-            this.label31.Text = "Ngành TikTok";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "926344/Văn học & Nghệ thuật/Nhiếp ảnh & Video",
-            "926472/Văn học & Nghệ thuật/Tiểu sử & Hồi ký",
-            "926600/Kinh tế & Quản lý/Kinh doanh & Quản lý",
-            "926728/Sách dành cho trẻ em & trẻ sơ sinh/Văn học & nghệ thuật thiếu nhi",
-            "926856/Văn học & Nghệ thuật/Văn học",
-            "926984/Giáo dục & Trường học/Sách giáo khoa",
-            "927496/Khoa học xã hội và nhân văn/Tâm lý học & Mối quan hệ",
-            "927624/Khoa học xã hội và nhân văn/Tôn giáo & Triết học",
-            "927752/Khoa học xã hội và nhân văn/Chính trị, Luật & Khoa học xã hội",
-            "927880/Khoa học & Công nghệ/Khoa học tự nhiên",
-            "928008/Khoa học xã hội và nhân văn/Lịch sử & Văn hóa",
-            "928136/Khoa học xã hội và nhân văn/Sự nghiệp & Tự lực",
-            "928264/Khoa học xã hội và nhân văn/Nuôi dạy con cái & Gia đình",
-            "928392/Phong cách sống & Sở thích/Công thức & Nấu nướng",
-            "928520/Phong cách sống & Sở thích/Thủ công mỹ nghệ & Tự làm",
-            "928648/Phong cách sống & Sở thích/Sức khỏe, Thể hình & Ăn kiêng",
-            "928904/Khoa học & Công nghệ/Y khoa",
-            "929032/Phong cách sống & Sở thích/Du lịch & Bản đồ",
-            "929160/Giáo dục & Trường học/Ngôn ngữ & Từ điển",
-            "929288/Phong cách sống & Sở thích/Truyện tranh & Manga",
-            "929416/Phong cách sống & Sở thích/Tử vi",
-            "929544/Khoa học & Công nghệ/Máy tính & Mạng",
-            "987016/Văn học & Nghệ thuật/Viễn tưởng",
-            "987144/Văn học & Nghệ thuật/Biểu diễn nghệ thuật",
-            "987400/Văn học & Nghệ thuật/Âm nhạc",
-            "989064/Văn học & Nghệ thuật/Phim điện ảnh & Truyền hình",
-            "989192/Văn học & Nghệ thuật/Vẽ tranh & Thiết kế",
-            "989448/Kinh tế & Quản lý/Kinh tế",
-            "989576/Kinh tế & Quản lý/Tài chính & Đầu tư",
-            "989832/Sách dành cho trẻ em & trẻ sơ sinh/Sách giáo dục sớm & sách mềm",
-            "989960/Sách dành cho trẻ em & trẻ sơ sinh/Sách hoạt động",
-            "990088/Sách dành cho trẻ em & trẻ sơ sinh/Sách tranh",
-            "990856/Khoa học & Công nghệ/Kiến trúc",
-            "991112/Khoa học & Công nghệ/Nông lâm ngư nghiệp",
-            "991240/Khoa học & Công nghệ/Công nghệ công nghiệp",
-            "992520/Phong cách sống & Sở thích/Thời trang & Làm đẹp",
-            "992648/Phong cách sống & Sở thích/Giáo dục thai sản & tiền sản",
-            "992776/Phong cách sống & Sở thích/Thể thao & Thể hình",
-            "993032/Giáo dục & Trường học/Sách tư vấn",
-            "997128/Sách dành cho trẻ em & trẻ sơ sinh/Khoa học xã hội và nhân văn cho thiếu n" +
-                "hi",
-            "997256/Sách dành cho trẻ em & trẻ sơ sinh/Khoa học và công nghệ cho thiếu nhi"});
-            this.comboBox1.Location = new System.Drawing.Point(110, 42);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(671, 21);
-            this.comboBox1.TabIndex = 74;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(680, 125);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(47, 16);
-            this.label32.TabIndex = 77;
-            this.label32.Text = "Tồn ttk";
-            // 
-            // txtSlTikTok
-            // 
-            this.txtSlTikTok.Location = new System.Drawing.Point(730, 121);
-            this.txtSlTikTok.Multiline = true;
-            this.txtSlTikTok.Name = "txtSlTikTok";
-            this.txtSlTikTok.Size = new System.Drawing.Size(51, 25);
-            this.txtSlTikTok.TabIndex = 76;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(796, 42);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(73, 16);
-            this.label33.TabIndex = 79;
-            this.label33.Text = "ISBN/ISSN";
-            // 
-            // txtISBN
-            // 
-            this.txtISBN.Location = new System.Drawing.Point(875, 39);
-            this.txtISBN.Multiline = true;
-            this.txtISBN.Name = "txtISBN";
-            this.txtISBN.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtISBN.Size = new System.Drawing.Size(194, 25);
-            this.txtISBN.TabIndex = 78;
-            // 
             // ExportShopeeAndHaravan
             // 
             this.AllowDrop = true;
@@ -1964,9 +1964,9 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ExportShopeeAndHaravan_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTikTok)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListHrv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListShopee)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTikTok)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2176,7 +2176,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colSoTrangtiktok;
         private System.Windows.Forms.Button btnExportTiktok;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbbIndustryTiktok;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.TextBox txtSlTikTok;
         private System.Windows.Forms.Label label33;

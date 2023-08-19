@@ -28,6 +28,7 @@ namespace StockManagerment
             txtNameProduct.Text = "";
             txtSlShopee.Text = "0";
             txtSlHrv.Text = "0";
+            txtSlTikTok.Text = "0";
             // Read values from file
             var strReadJsonIndustry = File.ReadAllText(@"industry.json");
             // Convert to Json Object
@@ -236,8 +237,8 @@ namespace StockManagerment
                 DataGridViewRow rowTikTok = (DataGridViewRow)dgvTikTok.Rows[0].Clone();
                 var breakLine = "\n";
                 //string[] inDustryCode = cbbIndustry.Text.ToString().Split(" - ");
-                List<string> inDustryCode = new List<string>(cbbIndustry.Text.ToString().Split(new string[] { " - " }, StringSplitOptions.None));
-                rowTikTok.Cells[0].Value = inDustryCode[0]; rowTikTok.Cells[1].Value = "7258118283534665477/FABICO";
+                //List<string> inDustryCode = new List<string>(cbbIndustryTiktok.Text.ToString().Split(new string[] { " - " }, StringSplitOptions.None));
+                rowTikTok.Cells[0].Value = cbbIndustryTiktok.Text.ToString(); rowTikTok.Cells[1].Value = "FABICO (7258118283534665477)";
                 rowTikTok.Cells[2].Value = txtNameProduct.Text.ToString();
                 rowTikTok.Cells[3].Value = "Tên Nhà Cung Cấp: " + cbbNCC.Text.ToString() + breakLine +
                                             "Tác giả: " + cbbBrand.Text.ToString() + breakLine +
@@ -252,7 +253,7 @@ namespace StockManagerment
                                             ">--------------------------------------------------------------------------------------------------------------------------<" + breakLine +
                                             txtNameProduct.Text.ToString() + breakLine +
                                             txtContent.Text.ToString();
-                rowTikTok.Cells[4].Value = txtWeight.Text.ToString(); rowTikTok.Cells[5].Value = ""; rowTikTok.Cells[6].Value = ""; rowTikTok.Cells[7].Value = ""; rowTikTok.Cells[8].Value = ""; rowTikTok.Cells[9].Value = ""; rowTikTok.Cells[10].Value = ""; rowTikTok.Cells[11].Value = ""; rowTikTok.Cells[12].Value = ""; rowTikTok.Cells[13].Value = txtPrice.Text.ToString(); rowTikTok.Cells[14].Value = txtSlTikTok.Text.ToString(); rowTikTok.Cells[15].Value = ""; rowTikTok.Cells[16].Value = txtImg.Text.ToString(); rowTikTok.Cells[17].Value = txtImg1.Text.ToString(); rowTikTok.Cells[18].Value = txtImg2.Text.ToString(); rowTikTok.Cells[19].Value = txtImg3.Text.ToString(); rowTikTok.Cells[20].Value = txtImg4.Text.ToString(); rowTikTok.Cells[21].Value = txtImg5.Text.ToString(); rowTikTok.Cells[22].Value = txtImg6.Text.ToString(); rowTikTok.Cells[23].Value = txtImg7.Text.ToString(); rowTikTok.Cells[24].Value = txtImg8.Text.ToString(); rowTikTok.Cells[25].Value = ""; rowTikTok.Cells[26].Value = txtNamsx.Text.ToString(); rowTikTok.Cells[27].Value = txtNPH.Text.ToString(); rowTikTok.Cells[28].Value =txtISBN.Text.ToString(); rowTikTok.Cells[29].Value = txtTrans.Text.ToString(); rowTikTok.Cells[30].Value = txtNumpage.Text.ToString();
+                rowTikTok.Cells[4].Value = txtWeight.Text.ToString(); rowTikTok.Cells[5].Value = ""; rowTikTok.Cells[6].Value = ""; rowTikTok.Cells[7].Value = ""; rowTikTok.Cells[8].Value = ""; rowTikTok.Cells[9].Value = ""; rowTikTok.Cells[10].Value = ""; rowTikTok.Cells[11].Value = ""; rowTikTok.Cells[12].Value = txtPrice.Text.ToString(); rowTikTok.Cells[13].Value = txtSlTikTok.Text.ToString(); rowTikTok.Cells[14].Value = txtSKU.Text.ToString(); rowTikTok.Cells[15].Value = txtImg.Text.ToString(); rowTikTok.Cells[16].Value = txtImg1.Text.ToString(); rowTikTok.Cells[17].Value = txtImg2.Text.ToString(); rowTikTok.Cells[18].Value = txtImg3.Text.ToString(); rowTikTok.Cells[19].Value = txtImg4.Text.ToString(); rowTikTok.Cells[20].Value = txtImg5.Text.ToString(); rowTikTok.Cells[21].Value = txtImg6.Text.ToString(); rowTikTok.Cells[22].Value = txtImg7.Text.ToString(); rowTikTok.Cells[23].Value = txtImg8.Text.ToString(); rowTikTok.Cells[24].Value = ""; rowTikTok.Cells[25].Value = txtNamsx.Text.ToString (); rowTikTok.Cells[26].Value = txtNPH.Text.ToString(); rowTikTok.Cells[27].Value = txtISBN.Text.ToString(); rowTikTok.Cells[28].Value = txtTrans.Text.ToString(); rowTikTok.Cells[29].Value = ""; rowTikTok.Cells[30].Value = txtNumpage.Text.ToString();
                 dgvTikTok.Rows.Add(rowTikTok);
             }
         }
@@ -271,8 +272,6 @@ namespace StockManagerment
 
                 //--------------------------Add Datagridview cho Haravan-----------------------------------------------------------------------//
                 addHaravan(false);
-
-              
 
                 clear();
                 //-------------------------------------------------------------------------------------------------//
@@ -351,7 +350,7 @@ namespace StockManagerment
             app.AskToUpdateLinks = false;
             app.DisplayAlerts = false;
             // save the application  
-            workbook.SaveAs("d:\\xuatharavanvashopee\\haravan.xls", XlFileFormat.xlExcel8, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
+            workbook.SaveAs("D:\\Project\\xuatharavanvashopee\\haravan.xls", XlFileFormat.xlExcel8, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
             // Exit from the application  
             app.Quit();
         }
@@ -414,13 +413,17 @@ namespace StockManagerment
 
             app.AskToUpdateLinks = false;
             //app.DisplayAlerts = false;
-            workbook.SaveAs("d:\\xuatharavanvashopee\\shopee.xlsx", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+            workbook.SaveAs("D:\\Project\\xuatharavanvashopee\\shopee.xlsx", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
             // Exit from the application  
             app.Quit();
         }
 
         void exportExcelTikTok()
         {
+            try
+            {
+
+           
             // creating Excel Application  
             _Application app = new Microsoft.Office.Interop.Excel.Application();
             // creating new WorkBook within Excel application  
@@ -446,7 +449,7 @@ namespace StockManagerment
             Worksheet oSheet2 = workbook.Sheets.Add(Type.Missing, Type.Missing, 1, Type.Missing);
             oSheet2.Name = @"Template";
             oSheet2.Cells[1, 1] = "category"; oSheet2.Cells[1, 2] = "brand"; oSheet2.Cells[1, 3] = "product_name"; oSheet2.Cells[1, 4] = "product_description"; oSheet2.Cells[1, 5] = "parcel_weight"; oSheet2.Cells[1, 6] = "parcel_length"; oSheet2.Cells[1, 7] = "parcel_width"; oSheet2.Cells[1, 8] = "parcel_height"; oSheet2.Cells[1, 9] = "delivery"; oSheet2.Cells[1, 10] = "property_value_1"; oSheet2.Cells[1, 11] = "property_1_image"; oSheet2.Cells[1, 12] = "property_value_2"; oSheet2.Cells[1, 13] = "price"; oSheet2.Cells[1, 14] = "quantity"; oSheet2.Cells[1, 15] = "seller_sku"; oSheet2.Cells[1, 16] = "main_image"; oSheet2.Cells[1, 17] = "image_2"; oSheet2.Cells[1, 18] = "image_3"; oSheet2.Cells[1, 19] = "image_4"; oSheet2.Cells[1, 20] = "image_5"; oSheet2.Cells[1, 21] = "image_6"; oSheet2.Cells[1, 22] = "image_7"; oSheet2.Cells[1, 23] = "image_8"; oSheet2.Cells[1, 24] = "image_9"; oSheet2.Cells[1, 25] = "size_chart"; oSheet2.Cells[1, 26] = "product_property/100530"; oSheet2.Cells[1, 27] = "product_property/100532"; oSheet2.Cells[1, 28] = "product_property/100534"; oSheet2.Cells[1, 29] = "product_property/100536"; oSheet2.Cells[1, 30] = "product_property/100537"; oSheet2.Cells[1, 31] = "product_property/100538";
-            oSheet2.Cells[2, 1] = "V2"; oSheet2.Cells[2, 2] = "create_product"; oSheet2.Cells[2, 3] = "metric";
+            oSheet2.Cells[2, 1] = "V3"; oSheet2.Cells[2, 2] = "create_product"; oSheet2.Cells[2, 3] = "metric";
             // storing header part in Excel
             for (int i = 1; i < dgvTikTok.Columns.Count + 1; i++)
             {
@@ -457,19 +460,21 @@ namespace StockManagerment
             {
                 for (int j = 0; j < dgvTikTok.Columns.Count; j++)
                 {
-                    oSheet2.Cells[i + 7, j + 1] = dgvTikTok.Rows[i].Cells[j].Value?.ToString();
+                    oSheet2.Cells[i + 8, j + 1] = dgvTikTok.Rows[i].Cells[j].Value?.ToString();
                 }
             }
-
-
 
             // save the application  
 
             app.AskToUpdateLinks = false;
             //app.DisplayAlerts = false;
-            workbook.SaveAs("d:\\xuatharavanvashopee\\tiktok.xlsx", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+            workbook.SaveAs("D:\\Project\\xuatharavanvashopee\\tiktok.xlsx", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
             // Exit from the application  
             app.Quit();
+            }
+            catch (Exception)
+            {
+            }
         }
 
 
@@ -523,6 +528,7 @@ namespace StockManagerment
 
         private void btnClearRow_Click(object sender, EventArgs e)
         {
+            dgvTikTok.Rows.Clear();
             dgvListShopee.Rows.Clear();
             dgvListHrv.Rows.Clear();
         }

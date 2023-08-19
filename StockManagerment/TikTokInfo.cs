@@ -163,6 +163,8 @@ namespace StockManagerment
             worksheet.Cells[1, 1] = "product_id"; worksheet.Cells[1, 2] = "product_name"; worksheet.Cells[1, 3] = "sku_id"; worksheet.Cells[1, 4] = "variation_value"; worksheet.Cells[1, 5] = "price"; worksheet.Cells[1, 6] = "quantity"; worksheet.Cells[1, 7] = "seller_sku";
             worksheet.Cells[2, 1] = "V3"; worksheet.Cells[2, 2] = "Sales_Information";
             // storing header part in Excel
+            worksheet.Range["A:A"].NumberFormat = "@";
+            worksheet.Range["C:C"].NumberFormat = "@";
             for (int i = 1; i < dgvListDbTikTok.Columns.Count; i++)
             {
                 worksheet.Cells[3, i] = dgvListDbTikTok.Columns[i].HeaderText;
@@ -175,13 +177,11 @@ namespace StockManagerment
                     worksheet.Cells[i + 6, j] = dgvListDbTikTok.Rows[i].Cells[j].Value?.ToString();
                 }
             }
-            worksheet.Range["A:A"].NumberFormat = 0;
-            worksheet.Range["C:C"].NumberFormat = 0;
-            worksheet.Range["E:E"].NumberFormat = 0;
+           
             // save the application  
             app.AskToUpdateLinks = false;
             app.DisplayAlerts = false;
-            workbook.SaveAs("d:\\xuatharavanvashopee\\updateShopee", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+            workbook.SaveAs("d:\\Project\\xuatharavanvashopee\\updateShopee", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
             // Exit from the application  
             app.Quit();
         }
