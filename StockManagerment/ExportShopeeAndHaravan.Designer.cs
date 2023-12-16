@@ -187,10 +187,13 @@
             this.colKhongapdungkm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colHienThiHarraRetail = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvListShopee = new System.Windows.Forms.DataGridView();
+            this.txtNameProduct = new System.Windows.Forms.TextBox();
+            this.btnAddProduct = new System.Windows.Forms.Button();
             this.colNghanhhang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMota = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSKU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHangnguyhiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMasp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPLN1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenPL = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -234,8 +237,6 @@
             this.colsogiayphepxb = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.coltentochuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.coldiachitochuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtNameProduct = new System.Windows.Forms.TextBox();
-            this.btnAddProduct = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTikTok)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListHrv)).BeginInit();
@@ -346,17 +347,17 @@
             this.txtISBN.Name = "txtISBN";
             this.txtISBN.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtISBN.Size = new System.Drawing.Size(194, 25);
-            this.txtISBN.TabIndex = 78;
+            this.txtISBN.TabIndex = 29;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(680, 125);
+            this.label32.Location = new System.Drawing.Point(662, 125);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(47, 16);
+            this.label32.Size = new System.Drawing.Size(65, 16);
             this.label32.TabIndex = 77;
-            this.label32.Text = "Tồn ttk";
+            this.label32.Text = "Tồn tiktok";
             // 
             // txtSlTikTok
             // 
@@ -364,7 +365,7 @@
             this.txtSlTikTok.Multiline = true;
             this.txtSlTikTok.Name = "txtSlTikTok";
             this.txtSlTikTok.Size = new System.Drawing.Size(51, 25);
-            this.txtSlTikTok.TabIndex = 76;
+            this.txtSlTikTok.TabIndex = 19;
             // 
             // label31
             // 
@@ -425,7 +426,7 @@
             this.cbbIndustryTiktok.Location = new System.Drawing.Point(110, 42);
             this.cbbIndustryTiktok.Name = "cbbIndustryTiktok";
             this.cbbIndustryTiktok.Size = new System.Drawing.Size(671, 21);
-            this.cbbIndustryTiktok.TabIndex = 74;
+            this.cbbIndustryTiktok.TabIndex = 1;
             // 
             // btnExportTiktok
             // 
@@ -476,7 +477,7 @@
             this.dgvTikTok.Location = new System.Drawing.Point(988, 495);
             this.dgvTikTok.Name = "dgvTikTok";
             this.dgvTikTok.Size = new System.Drawing.Size(494, 265);
-            this.dgvTikTok.TabIndex = 72;
+            this.dgvTikTok.TabIndex = 39;
             // 
             // colCategory
             // 
@@ -657,7 +658,7 @@
             this.btnGetId.Location = new System.Drawing.Point(187, 429);
             this.btnGetId.Name = "btnGetId";
             this.btnGetId.Size = new System.Drawing.Size(110, 23);
-            this.btnGetId.TabIndex = 13;
+            this.btnGetId.TabIndex = 14;
             this.btnGetId.Text = "Get";
             this.btnGetId.UseVisualStyleBackColor = true;
             this.btnGetId.Click += new System.EventHandler(this.btnGetId_Click);
@@ -668,7 +669,7 @@
             this.btnExportAll.Name = "btnExportAll";
             this.btnExportAll.Size = new System.Drawing.Size(96, 23);
             this.btnExportAll.TabIndex = 69;
-            this.btnExportAll.Text = "Export Shopee";
+            this.btnExportAll.Text = "Export All";
             this.btnExportAll.UseVisualStyleBackColor = true;
             this.btnExportAll.Click += new System.EventHandler(this.btnExportAll_Click);
             // 
@@ -719,7 +720,7 @@
             this.txtContent.Name = "txtContent";
             this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtContent.Size = new System.Drawing.Size(629, 262);
-            this.txtContent.TabIndex = 32;
+            this.txtContent.TabIndex = 35;
             // 
             // label25
             // 
@@ -738,7 +739,7 @@
             this.txtNumpage.Name = "txtNumpage";
             this.txtNumpage.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtNumpage.Size = new System.Drawing.Size(194, 25);
-            this.txtNumpage.TabIndex = 31;
+            this.txtNumpage.TabIndex = 34;
             // 
             // label26
             // 
@@ -757,7 +758,7 @@
             this.txtSize.Name = "txtSize";
             this.txtSize.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtSize.Size = new System.Drawing.Size(194, 25);
-            this.txtSize.TabIndex = 30;
+            this.txtSize.TabIndex = 33;
             // 
             // label27
             // 
@@ -776,7 +777,7 @@
             this.txtTrans.Name = "txtTrans";
             this.txtTrans.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtTrans.Size = new System.Drawing.Size(194, 25);
-            this.txtTrans.TabIndex = 29;
+            this.txtTrans.TabIndex = 32;
             // 
             // label28
             // 
@@ -795,7 +796,7 @@
             this.txtWeight.Name = "txtWeight";
             this.txtWeight.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtWeight.Size = new System.Drawing.Size(194, 25);
-            this.txtWeight.TabIndex = 28;
+            this.txtWeight.TabIndex = 31;
             // 
             // label29
             // 
@@ -814,7 +815,7 @@
             this.txtSKU.Name = "txtSKU";
             this.txtSKU.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtSKU.Size = new System.Drawing.Size(194, 25);
-            this.txtSKU.TabIndex = 27;
+            this.txtSKU.TabIndex = 30;
             // 
             // label24
             // 
@@ -836,7 +837,7 @@
             this.cbbLoaiBia.Location = new System.Drawing.Point(519, 374);
             this.cbbLoaiBia.Name = "cbbLoaiBia";
             this.cbbLoaiBia.Size = new System.Drawing.Size(263, 21);
-            this.cbbLoaiBia.TabIndex = 25;
+            this.cbbLoaiBia.TabIndex = 27;
             // 
             // label22
             // 
@@ -854,7 +855,7 @@
             this.txtNamsx.Multiline = true;
             this.txtNamsx.Name = "txtNamsx";
             this.txtNamsx.Size = new System.Drawing.Size(264, 25);
-            this.txtNamsx.TabIndex = 26;
+            this.txtNamsx.TabIndex = 28;
             // 
             // label23
             // 
@@ -872,7 +873,7 @@
             this.txtNPH.Multiline = true;
             this.txtNPH.Name = "txtNPH";
             this.txtNPH.Size = new System.Drawing.Size(264, 25);
-            this.txtNPH.TabIndex = 24;
+            this.txtNPH.TabIndex = 26;
             // 
             // label21
             // 
@@ -890,7 +891,7 @@
             this.txtTag.Multiline = true;
             this.txtTag.Name = "txtTag";
             this.txtTag.Size = new System.Drawing.Size(264, 25);
-            this.txtTag.TabIndex = 23;
+            this.txtTag.TabIndex = 25;
             // 
             // label20
             // 
@@ -908,7 +909,7 @@
             this.txtLoaiSp.Multiline = true;
             this.txtLoaiSp.Name = "txtLoaiSp";
             this.txtLoaiSp.Size = new System.Drawing.Size(263, 25);
-            this.txtLoaiSp.TabIndex = 22;
+            this.txtLoaiSp.TabIndex = 24;
             // 
             // label19
             // 
@@ -934,7 +935,7 @@
             this.cbbDanhMuc.Location = new System.Drawing.Point(520, 249);
             this.cbbDanhMuc.Name = "cbbDanhMuc";
             this.cbbDanhMuc.Size = new System.Drawing.Size(263, 21);
-            this.cbbDanhMuc.TabIndex = 21;
+            this.cbbDanhMuc.TabIndex = 23;
             // 
             // label18
             // 
@@ -970,7 +971,7 @@
             this.cbbNCC.Location = new System.Drawing.Point(519, 219);
             this.cbbNCC.Name = "cbbNCC";
             this.cbbNCC.Size = new System.Drawing.Size(263, 21);
-            this.cbbNCC.TabIndex = 20;
+            this.cbbNCC.TabIndex = 22;
             // 
             // label17
             // 
@@ -988,7 +989,7 @@
             this.txtLanguage.Multiline = true;
             this.txtLanguage.Name = "txtLanguage";
             this.txtLanguage.Size = new System.Drawing.Size(264, 25);
-            this.txtLanguage.TabIndex = 19;
+            this.txtLanguage.TabIndex = 21;
             // 
             // label16
             // 
@@ -1006,13 +1007,13 @@
             this.txtXuatKhau.Multiline = true;
             this.txtXuatKhau.Name = "txtXuatKhau";
             this.txtXuatKhau.Size = new System.Drawing.Size(263, 25);
-            this.txtXuatKhau.TabIndex = 18;
+            this.txtXuatKhau.TabIndex = 20;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(555, 125);
+            this.label15.Location = new System.Drawing.Point(540, 125);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(55, 16);
             this.label15.TabIndex = 34;
@@ -1020,11 +1021,11 @@
             // 
             // txtSlHrv
             // 
-            this.txtSlHrv.Location = new System.Drawing.Point(614, 121);
+            this.txtSlHrv.Location = new System.Drawing.Point(599, 121);
             this.txtSlHrv.Multiline = true;
             this.txtSlHrv.Name = "txtSlHrv";
             this.txtSlHrv.Size = new System.Drawing.Size(60, 25);
-            this.txtSlHrv.TabIndex = 17;
+            this.txtSlHrv.TabIndex = 18;
             // 
             // label14
             // 
@@ -1042,7 +1043,7 @@
             this.txtSlShopee.Multiline = true;
             this.txtSlShopee.Name = "txtSlShopee";
             this.txtSlShopee.Size = new System.Drawing.Size(50, 25);
-            this.txtSlShopee.TabIndex = 16;
+            this.txtSlShopee.TabIndex = 17;
             // 
             // label13
             // 
@@ -1060,7 +1061,7 @@
             this.txtPrice.Multiline = true;
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(262, 25);
-            this.txtPrice.TabIndex = 15;
+            this.txtPrice.TabIndex = 16;
             // 
             // label12
             // 
@@ -1078,7 +1079,7 @@
             this.txtIdBrand.Multiline = true;
             this.txtIdBrand.Name = "txtIdBrand";
             this.txtIdBrand.Size = new System.Drawing.Size(272, 25);
-            this.txtIdBrand.TabIndex = 14;
+            this.txtIdBrand.TabIndex = 15;
             // 
             // label11
             // 
@@ -1096,7 +1097,7 @@
             this.cbbBrand.Location = new System.Drawing.Point(111, 402);
             this.cbbBrand.Name = "cbbBrand";
             this.cbbBrand.Size = new System.Drawing.Size(272, 21);
-            this.cbbBrand.TabIndex = 12;
+            this.cbbBrand.TabIndex = 13;
             // 
             // label10
             // 
@@ -1114,7 +1115,7 @@
             this.txtImg8.Multiline = true;
             this.txtImg8.Name = "txtImg8";
             this.txtImg8.Size = new System.Drawing.Size(272, 25);
-            this.txtImg8.TabIndex = 11;
+            this.txtImg8.TabIndex = 12;
             // 
             // label9
             // 
@@ -1132,7 +1133,7 @@
             this.txtImg7.Multiline = true;
             this.txtImg7.Name = "txtImg7";
             this.txtImg7.Size = new System.Drawing.Size(272, 25);
-            this.txtImg7.TabIndex = 10;
+            this.txtImg7.TabIndex = 11;
             // 
             // label8
             // 
@@ -1150,7 +1151,7 @@
             this.txtImg6.Multiline = true;
             this.txtImg6.Name = "txtImg6";
             this.txtImg6.Size = new System.Drawing.Size(272, 25);
-            this.txtImg6.TabIndex = 9;
+            this.txtImg6.TabIndex = 10;
             // 
             // label7
             // 
@@ -1168,7 +1169,7 @@
             this.txtImg5.Multiline = true;
             this.txtImg5.Name = "txtImg5";
             this.txtImg5.Size = new System.Drawing.Size(272, 25);
-            this.txtImg5.TabIndex = 8;
+            this.txtImg5.TabIndex = 9;
             // 
             // label6
             // 
@@ -1186,7 +1187,7 @@
             this.txtImg4.Multiline = true;
             this.txtImg4.Name = "txtImg4";
             this.txtImg4.Size = new System.Drawing.Size(272, 25);
-            this.txtImg4.TabIndex = 7;
+            this.txtImg4.TabIndex = 8;
             // 
             // label5
             // 
@@ -1204,7 +1205,7 @@
             this.txtImg3.Multiline = true;
             this.txtImg3.Name = "txtImg3";
             this.txtImg3.Size = new System.Drawing.Size(272, 25);
-            this.txtImg3.TabIndex = 6;
+            this.txtImg3.TabIndex = 7;
             // 
             // label4
             // 
@@ -1222,7 +1223,7 @@
             this.txtImg2.Multiline = true;
             this.txtImg2.Name = "txtImg2";
             this.txtImg2.Size = new System.Drawing.Size(272, 25);
-            this.txtImg2.TabIndex = 5;
+            this.txtImg2.TabIndex = 6;
             // 
             // label3
             // 
@@ -1240,7 +1241,7 @@
             this.txtImg1.Multiline = true;
             this.txtImg1.Name = "txtImg1";
             this.txtImg1.Size = new System.Drawing.Size(272, 25);
-            this.txtImg1.TabIndex = 4;
+            this.txtImg1.TabIndex = 5;
             // 
             // label2
             // 
@@ -1258,7 +1259,7 @@
             this.txtImg.Multiline = true;
             this.txtImg.Name = "txtImg";
             this.txtImg.Size = new System.Drawing.Size(272, 25);
-            this.txtImg.TabIndex = 3;
+            this.txtImg.TabIndex = 4;
             // 
             // label1
             // 
@@ -1286,7 +1287,7 @@
             this.cbbIndustry.Location = new System.Drawing.Point(110, 68);
             this.cbbIndustry.Name = "cbbIndustry";
             this.cbbIndustry.Size = new System.Drawing.Size(671, 21);
-            this.cbbIndustry.TabIndex = 1;
+            this.cbbIndustry.TabIndex = 2;
             // 
             // dgvListHrv
             // 
@@ -1345,7 +1346,7 @@
             this.dgvListHrv.Location = new System.Drawing.Point(485, 495);
             this.dgvListHrv.Name = "dgvListHrv";
             this.dgvListHrv.Size = new System.Drawing.Size(454, 265);
-            this.dgvListHrv.TabIndex = 3;
+            this.dgvListHrv.TabIndex = 38;
             // 
             // colUrl
             // 
@@ -1602,6 +1603,7 @@
             this.colTen,
             this.colMota,
             this.colSKU,
+            this.colHangnguyhiem,
             this.colMasp,
             this.colPLN1,
             this.colTenPL,
@@ -1648,13 +1650,32 @@
             this.dgvListShopee.Location = new System.Drawing.Point(3, 495);
             this.dgvListShopee.Name = "dgvListShopee";
             this.dgvListShopee.Size = new System.Drawing.Size(458, 265);
-            this.dgvListShopee.TabIndex = 2;
+            this.dgvListShopee.TabIndex = 37;
+            // 
+            // txtNameProduct
+            // 
+            this.txtNameProduct.Location = new System.Drawing.Point(111, 92);
+            this.txtNameProduct.Multiline = true;
+            this.txtNameProduct.Name = "txtNameProduct";
+            this.txtNameProduct.Size = new System.Drawing.Size(272, 25);
+            this.txtNameProduct.TabIndex = 3;
+            this.txtNameProduct.TextChanged += new System.EventHandler(this.txtNameProduct_TextChanged);
+            // 
+            // btnAddProduct
+            // 
+            this.btnAddProduct.Location = new System.Drawing.Point(805, 466);
+            this.btnAddProduct.Name = "btnAddProduct";
+            this.btnAddProduct.Size = new System.Drawing.Size(110, 23);
+            this.btnAddProduct.TabIndex = 36;
+            this.btnAddProduct.Text = "Thêm Sản Phẩm";
+            this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // colNghanhhang
             // 
             this.colNghanhhang.HeaderText = "Nghành Hàng";
             this.colNghanhhang.Name = "colNghanhhang";
-            this.colNghanhhang.Width = 91;
+            this.colNghanhhang.Width = 99;
             // 
             // colTen
             // 
@@ -1666,13 +1687,19 @@
             // 
             this.colMota.HeaderText = "Mô Tả";
             this.colMota.Name = "colMota";
-            this.colMota.Width = 47;
+            this.colMota.Width = 63;
             // 
             // colSKU
             // 
             this.colSKU.HeaderText = "SKU";
             this.colSKU.Name = "colSKU";
             this.colSKU.Width = 54;
+            // 
+            // colHangnguyhiem
+            // 
+            this.colHangnguyhiem.HeaderText = "Hàng Nguy Hiểm";
+            this.colHangnguyhiem.Name = "colHangnguyhiem";
+            this.colHangnguyhiem.Width = 104;
             // 
             // colMasp
             // 
@@ -1932,25 +1959,6 @@
             this.coldiachitochuc.Name = "coldiachitochuc";
             this.coldiachitochuc.Width = 125;
             // 
-            // txtNameProduct
-            // 
-            this.txtNameProduct.Location = new System.Drawing.Point(111, 92);
-            this.txtNameProduct.Multiline = true;
-            this.txtNameProduct.Name = "txtNameProduct";
-            this.txtNameProduct.Size = new System.Drawing.Size(272, 25);
-            this.txtNameProduct.TabIndex = 2;
-            this.txtNameProduct.TextChanged += new System.EventHandler(this.txtNameProduct_TextChanged);
-            // 
-            // btnAddProduct
-            // 
-            this.btnAddProduct.Location = new System.Drawing.Point(805, 466);
-            this.btnAddProduct.Name = "btnAddProduct";
-            this.btnAddProduct.Size = new System.Drawing.Size(110, 23);
-            this.btnAddProduct.TabIndex = 33;
-            this.btnAddProduct.Text = "Thêm Sản Phẩm";
-            this.btnAddProduct.UseVisualStyleBackColor = true;
-            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
-            // 
             // ExportShopeeAndHaravan
             // 
             this.AllowDrop = true;
@@ -2038,53 +2046,6 @@
         private System.Windows.Forms.Button btnGetId;
         private System.Windows.Forms.ComboBox cbbDanhMuc;
         private System.Windows.Forms.Label lbCount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNghanhhang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTen;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMota;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colSKU;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMasp;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPLN1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenPL;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinhPL;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPLN2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenPL2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colGia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTon;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colSKUPL;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colBangQuiDoi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinhBia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colCanNang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colChieuDai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colRong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colChieucao;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNhanh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPhamvicb;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNgaycb;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colBrand;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colXuatxu;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHanbh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiBh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNhaPhathanh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colQuocgia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNgonNgu;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNhapKhau;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPhathanh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colISBN;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiPB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colThanhPho;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiBia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNamsx;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colsogiayphepxb;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coltentochuc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coldiachitochuc;
         private System.Windows.Forms.DataGridViewTextBoxColumn colUrl;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colContent;
@@ -2181,5 +2142,53 @@
         private System.Windows.Forms.TextBox txtSlTikTok;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.TextBox txtISBN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNghanhhang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMota;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSKU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHangnguyhiem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMasp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPLN1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenPL;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinhPL;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPLN2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenPL2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSKUPL;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colBangQuiDoi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinhBia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHinh8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCanNang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colChieuDai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colRong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colChieucao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNhanh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPhamvicb;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNgaycb;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colBrand;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colXuatxu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHanbh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiBh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNhaPhathanh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colQuocgia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNgonNgu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNhapKhau;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPhathanh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colISBN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiPB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colThanhPho;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiBia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNamsx;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colsogiayphepxb;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coltentochuc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coldiachitochuc;
     }
 }

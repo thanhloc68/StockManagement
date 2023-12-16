@@ -88,7 +88,6 @@
     <Compile Include="SearchForm.Designer.cs">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SingletonDesignPattern.cs" />
     <Compile Include="Stock.cs">
       <DependentUpon>Stock.dbml</DependentUpon>
     </Compile>
