@@ -1,13 +1,10 @@
 ﻿using ExcelDataReader;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -23,8 +20,15 @@ namespace StockManagerment
         }
         public void LoadDbList()
         {
-            var list = dbcontext.tbShopeeInfos.Take(50).ToList();
-            dgvListDb.DataSource = list;
+            try
+            {
+                var list = dbcontext.tbShopeeInfos.ToList();
+                dgvListDb.DataSource = list;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi dữ liệu tại -> " + ex.Message);
+            }
         }
         private void SearchForm_FormClosed(object sender, FormClosedEventArgs e)
         {

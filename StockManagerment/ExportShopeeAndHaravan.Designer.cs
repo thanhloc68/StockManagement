@@ -217,6 +217,7 @@
             this.colChieuDai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colRong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colChieucao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHoaToc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNhanh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPhamvicb = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNgaycb = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -1627,6 +1628,7 @@
             this.colChieuDai,
             this.colRong,
             this.colChieucao,
+            this.colHoaToc,
             this.colNhanh,
             this.colPhamvicb,
             this.colNgaycb,
@@ -1838,6 +1840,12 @@
             this.colChieucao.HeaderText = "Chiều Cao";
             this.colChieucao.Name = "colChieucao";
             this.colChieucao.Width = 75;
+            // 
+            // colHoaToc
+            // 
+            this.colHoaToc.HeaderText = "Hỏa tốc";
+            this.colHoaToc.Name = "colHoaToc";
+            this.colHoaToc.Width = 52;
             // 
             // colNhanh
             // 
@@ -2170,6 +2178,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colChieuDai;
         private System.Windows.Forms.DataGridViewTextBoxColumn colRong;
         private System.Windows.Forms.DataGridViewTextBoxColumn colChieucao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHoaToc;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNhanh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colPhamvicb;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNgaycb;
