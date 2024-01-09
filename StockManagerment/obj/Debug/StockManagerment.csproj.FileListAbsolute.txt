@@ -1,95 +1,16 @@
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\StockManagerment.exe.config
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\StockManagerment.exe
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\StockManagerment.pdb
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.csproj.AssemblyReference.cache
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.csproj.SuggestedBindingRedirects.cache
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.Main.resources
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.Properties.Resources.resources
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.csproj.GenerateResource.cache
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.csproj.CoreCompileInputs.cache
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.exe
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.pdb
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.ExportShopeeAndHaravan.resources
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.SearchForm.resources
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.StockManagerment.resources
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\DocumentFormat.OpenXml.dll
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\Newtonsoft.Json.dll
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\System.Data.OleDb.dll
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\DocumentFormat.OpenXml.xml
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\Newtonsoft.Json.xml
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\System.Data.OleDb.xml
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\obj\Debug\StockManagerment.csproj.CopyComplete
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.DataSet.dll
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.dll
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.pdb
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.xml
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.DataSet.pdb
-D:\NguyenThanhLoc\ProjectFabico\StockManagerment\StockManagerment\bin\Debug\ExcelDataReader.DataSet.xml
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe.config
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\StockManagerment.pdb
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.dll
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.dll
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.dll
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.dll
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.dll
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.xml
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.pdb
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.xml
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.pdb
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.xml
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.xml
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.xml
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.AssemblyReference.cache
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.SuggestedBindingRedirects.cache
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.ExportShopeeAndHaravan.resources
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.Main.resources
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.Properties.Resources.resources
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.SearchForm.resources
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.StockManagerment.resources
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.GenerateResource.cache
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CoreCompileInputs.cache
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CopyComplete
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.exe
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.pdb
-D:\ProjectLearn\New folder\StockManagement\StockManagerment\obj\Debug\StockManagerment.TikTokInfo.resources
-D:\Project\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe.config
-D:\Project\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe
-D:\Project\StockManagement\StockManagerment\bin\Debug\StockManagerment.pdb
-D:\Project\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.dll
-D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.dll
-D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.dll
-D:\Project\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.dll
-D:\Project\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.dll
-D:\Project\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.xml
-D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.pdb
-D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.xml
-D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.pdb
-D:\Project\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.xml
-D:\Project\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.xml
-D:\Project\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.xml
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.AssemblyReference.cache
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.SuggestedBindingRedirects.cache
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.ExportShopeeAndHaravan.resources
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.Main.resources
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.Properties.Resources.resources
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.SearchForm.resources
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.StockManagerment.resources
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.TikTokInfo.resources
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.GenerateResource.cache
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CoreCompileInputs.cache
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.csproj.CopyComplete
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.exe
-D:\Project\StockManagement\StockManagerment\obj\Debug\StockManagerment.pdb
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe.config
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\StockManagerment.exe
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\StockManagerment.pdb
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.dll
+D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\EntityFramework.dll
+D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\EntityFramework.SqlServer.dll
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.dll
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.dll
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\Newtonsoft.Json.dll
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\System.Data.OleDb.dll
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\DocumentFormat.OpenXml.xml
+D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\EntityFramework.xml
+D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\EntityFramework.SqlServer.xml
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.pdb
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.xml
 D:\ProjectLearn\Stockmanager\StockManagement\StockManagerment\bin\Debug\ExcelDataReader.DataSet.pdb

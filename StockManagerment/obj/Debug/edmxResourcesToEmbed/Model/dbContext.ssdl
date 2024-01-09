@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Stock_ManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SKU_Product" Type="nvarchar" MaxLength="150" />
+    <Property Name="QR_SKU" Type="nvarchar" MaxLength="150" />
+    <Property Name="Name_Product" Type="nvarchar" MaxLength="150" />
+    <Property Name="Id_Shelf" Type="int" />
+  </EntityType>
+  <EntityType Name="productInStock">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="industry_group" Type="nvarchar" MaxLength="150" />
+    <Property Name="industry" Type="nvarchar" MaxLength="150" />
+    <Property Name="group" Type="nvarchar" MaxLength="150" />
+    <Property Name="type_product" Type="int" />
+    <Property Name="sku" Type="nvarchar" MaxLength="50" />
+    <Property Name="name_Product" Type="nvarchar" MaxLength="200" />
+    <Property Name="Name_Branch" Type="nvarchar" MaxLength="200" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Shelf" Type="int" />
+    <Property Name="Stock" Type="int" />
+  </EntityType>
+  <EntityType Name="Shelt">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+    <Property Name="QR_Shelf" Type="nvarchar" MaxLength="150" />
+    <Property Name="Index_Shelf" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tbShopeeInfo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="productCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="productName" Type="nvarchar" MaxLength="150" />
+    <Property Name="classificationCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="classificationName" Type="nvarchar" MaxLength="150" />
+    <Property Name="SKUProduct" Type="nvarchar" MaxLength="50" />
+    <Property Name="SKU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="int" />
+    <Property Name="Quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="tbTikTokInfo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="product_name" Type="nvarchar(max)" />
+    <Property Name="sku_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="variation_value" Type="nvarchar" MaxLength="100" />
+    <Property Name="price" Type="int" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="seller_sku" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="type">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id_type" Type="int" />
+    <Property Name="name_type" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <Association Name="FK_Product_Shelt">
+    <End Role="Shelt" Type="Self.Shelt" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shelt">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Id_Shelf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_productInStock_Sheld">
+    <End Role="Shelt" Type="Self.Shelt" Multiplicity="0..1" />
+    <End Role="productInStock" Type="Self.productInStock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shelt">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="productInStock">
+        <PropertyRef Name="Shelf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_type_productInStock">
+    <End Role="productInStock" Type="Self.productInStock" Multiplicity="0..1" />
+    <End Role="type" Type="Self.type" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productInStock">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="type">
+        <PropertyRef Name="id_type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Stock_ManagementModelStoreContainer">
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="productInStock" EntityType="Self.productInStock" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shelt" EntityType="Self.Shelt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbShopeeInfo" EntityType="Self.tbShopeeInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbTikTokInfo" EntityType="Self.tbTikTokInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="type" EntityType="Self.type" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Product_Shelt" Association="Self.FK_Product_Shelt">
+      <End Role="Shelt" EntitySet="Shelt" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_productInStock_Sheld" Association="Self.FK_productInStock_Sheld">
+      <End Role="Shelt" EntitySet="Shelt" />
+      <End Role="productInStock" EntitySet="productInStock" />
+    </AssociationSet>
+    <AssociationSet Name="FK_type_productInStock" Association="Self.FK_type_productInStock">
+      <End Role="productInStock" EntitySet="productInStock" />
+      <End Role="type" EntitySet="type" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
