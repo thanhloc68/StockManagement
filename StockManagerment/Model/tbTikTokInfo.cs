@@ -16,6 +16,7 @@ namespace StockManagerment.Model
     {
         public int id { get; set; }
         public string product_id { get; set; }
+        public string category { get; set; }
         public string product_name { get; set; }
         public string sku_id { get; set; }
         public string variation_value { get; set; }

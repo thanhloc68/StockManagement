@@ -82,7 +82,13 @@ namespace StockManagerment
             try
             {
                 DataTable dt = tableCollection[cbbSheettiktok.SelectedItem.ToString()];
-                dgvDataTiktok.DataSource = dt;
+                DataTable dtNew = dt.Clone();
+                for (int i = 4; i < dt.Rows.Count; i++)
+                {
+                    DataRow row = dt.Rows[i];
+                    dtNew.Rows.Add(row.ItemArray);
+                }
+                dgvDataTiktok.DataSource = dtNew;
             }
             catch (Exception ex)
             {
@@ -94,17 +100,18 @@ namespace StockManagerment
             try
             {
                 List<tbTikTokInfo> tbTikTokInfos = new List<tbTikTokInfo>();
-                string productid, productName, skuid, variationValue, sellerSku;
+                string productid, category, productName, skuid, variationValue, sellerSku;
                 int Price, Quantity;
                 for (int i = 0; i < dgvDataTiktok.Rows.Count - 1; i++)
                 {
                     productid = dgvDataTiktok.Rows[i].Cells[0].Value.ToString();
                     productName = dgvDataTiktok.Rows[i].Cells[1].Value.ToString();
-                    skuid = dgvDataTiktok.Rows[i].Cells[2].Value.ToString();
-                    variationValue = dgvDataTiktok.Rows[i].Cells[3].Value.ToString();
-                    Price = Convert.ToInt32(dgvDataTiktok.Rows[i].Cells[4].Value.ToString());
-                    Quantity = Convert.ToInt32(dgvDataTiktok.Rows[i].Cells[5].Value.ToString());
-                    sellerSku = dgvDataTiktok.Rows[i].Cells[6].Value.ToString();
+                    category = dgvDataTiktok.Rows[i].Cells[2].Value.ToString();
+                    skuid = dgvDataTiktok.Rows[i].Cells[3].Value.ToString();
+                    variationValue = dgvDataTiktok.Rows[i].Cells[4].Value.ToString();
+                    Price = Convert.ToInt32(dgvDataTiktok.Rows[i].Cells[5].Value.ToString());
+                    Quantity = Convert.ToInt32(dgvDataTiktok.Rows[i].Cells[6].Value.ToString());
+                    sellerSku = dgvDataTiktok.Rows[i].Cells[7].Value.ToString();
                     var listed = _dbContext.tbTikTokInfoes.Any(x => x.seller_sku == sellerSku);
                     var st = new tbTikTokInfo
                     {
@@ -174,7 +181,7 @@ namespace StockManagerment
         {
             try
             {
-                await Task.Delay(500);
+                await Task.Delay(400);
                 // creating Excel Application  
                 Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
                 // creating new WorkBook within Excel application  
@@ -189,9 +196,8 @@ namespace StockManagerment
                 worksheet = workbook.ActiveSheet;
                 // changing the name of active sheet  
                 // get the reference of first sheet. By default its name is Sheet2.  
-
                 worksheet.Name = @"Sheet1";
-                worksheet.Cells[1, 1] = "product_id"; worksheet.Cells[1, 2] = "product_name"; worksheet.Cells[1, 3] = "sku_id"; worksheet.Cells[1, 4] = "variation_value"; worksheet.Cells[1, 5] = "price"; worksheet.Cells[1, 6] = "quantity"; worksheet.Cells[1, 7] = "seller_sku";
+                worksheet.Cells[1, 1] = "product_id"; worksheet.Cells[1, 2] = "category"; worksheet.Cells[1, 3] = "product_name"; worksheet.Cells[1, 4] = "sku_id"; worksheet.Cells[1, 5] = "variation_value"; worksheet.Cells[1, 6] = "price"; worksheet.Cells[1, 7] = "quantity"; worksheet.Cells[1, 8] = "seller_sku";
                 worksheet.Cells[2, 1] = "V3"; worksheet.Cells[2, 2] = "Sales_Information";
                 // storing header part in Excel
                 worksheet.Range["A:A"].NumberFormat = "@";
@@ -211,13 +217,13 @@ namespace StockManagerment
                 // save the application  
                 app.AskToUpdateLinks = false;
                 app.DisplayAlerts = false;
-                workbook.SaveAs("d:\\Project\\xuatharavanvashopee\\updateShopee", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+                workbook.SaveAs("d:\\Project\\xuatharavanvashopee\\updateTikTok", Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
                 // Exit from the application  
                 app.Quit();
             }
             catch (Exception ex) { messageData(ex); }
         }
-        public void messageData(Exception ex)
+        private void messageData(Exception ex)
         {
             MessageBox.Show($"Lỗi dữ liệu {ex.Message}", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }

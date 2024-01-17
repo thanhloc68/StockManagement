@@ -255,7 +255,7 @@ namespace StockManagerment
             mains.Show();
             this.Hide();
         }
-        public void messageData(Exception ex)
+        private void messageData(Exception ex)
         {
             MessageBox.Show($"Lỗi dữ liệu {ex.Message}", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }

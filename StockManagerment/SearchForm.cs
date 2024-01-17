@@ -187,7 +187,6 @@ namespace StockManagerment
                 messageData(ex);
             }
         }
-
         private void dgvData_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             try
@@ -199,7 +198,6 @@ namespace StockManagerment
                 messageData(ex);
             }
         }
-
         private async void txtSearchName_TextChanged(object sender, EventArgs e)
         {
             try
@@ -251,10 +249,9 @@ namespace StockManagerment
         {
 
         }
-        public void messageData(Exception ex)
+        private void messageData(Exception ex)
         {
             MessageBox.Show($"Lỗi dữ liệu {ex.Message}", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
-
     }
 }

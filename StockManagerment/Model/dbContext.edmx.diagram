@@ -8,7 +8,7 @@
         <EntityTypeShape EntityType="Stock_ManagementModel.Product" Width="1.5" PointX="3" PointY="5.375" />
         <EntityTypeShape EntityType="Stock_ManagementModel.productInStock" Width="1.5" PointX="3" PointY="1.125" />
         <EntityTypeShape EntityType="Stock_ManagementModel.Shelt" Width="1.5" PointX="0.75" PointY="3.25" />
-        <EntityTypeShape EntityType="Stock_ManagementModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Stock_ManagementModel.sysdiagram" Width="1.5" PointX="10.5" PointY="3.5" />
         <EntityTypeShape EntityType="Stock_ManagementModel.tbShopeeInfo" Width="1.5" PointX="7.75" PointY="0.75" />
         <EntityTypeShape EntityType="Stock_ManagementModel.tbTikTokInfo" Width="1.5" PointX="7.75" PointY="4.75" />
         <EntityTypeShape EntityType="Stock_ManagementModel.type" Width="1.5" PointX="5.25" PointY="2" />
